@@ -1,0 +1,169 @@
+<ReligionCensus>
+  <ReligionCensusYear label="2010" data="2010">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="2000" data="2000">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="1990" data="1990">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="1980" data="1980">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="1971" data="1971">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="1952" data="1952">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="1936" data="1936">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="1926" data="1926">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="1916" data="1916">
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="1906" data="1906">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+  <ReligionCensusYear label="1890" data="1890">
+    <ReligionCensusVariable label="Adherents" data="1">
+      <NormalizationVariable label="as % of Total Population" data="4" />
+      <NormalizationVariable label="as % of Total Adherents" data="5" />
+      <NormalizationVariable label="as Counts" data="1" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Congregations" data="3">
+      <NormalizationVariable label="as % of Total Congregations" data="8" />
+      <NormalizationVariable label="as Counts" data="3" />
+    </ReligionCensusVariable>
+    <ReligionCensusVariable label="Members" data="2">
+      <NormalizationVariable label="as % of Total Population" data="6" />
+      <NormalizationVariable label="as % of Total Members" data="7" />
+      <NormalizationVariable label="as Counts" data="2" />
+    </ReligionCensusVariable>
+  </ReligionCensusYear>
+</ReligionCensus>

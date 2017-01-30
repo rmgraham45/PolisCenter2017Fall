@@ -1,0 +1,590 @@
+{
+   "ReligionCensus": {
+      "ReligionCensusYear": [
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "2010",
+            "_data": "2010"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "2000",
+            "_data": "2000"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "1990",
+            "_data": "1990"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "1980",
+            "_data": "1980"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "1971",
+            "_data": "1971"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "1952",
+            "_data": "1952"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "1936",
+            "_data": "1936"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "1926",
+            "_data": "1926"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "1916",
+            "_data": "1916"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "1906",
+            "_data": "1906"
+         },
+         {
+            "ReligionCensusVariable": [
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "4"
+                     },
+                     {
+                        "_label": "as % of Total Adherents",
+                        "_data": "5"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "1"
+                     }
+                  ],
+                  "_label": "Adherents",
+                  "_data": "1"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Congregations",
+                        "_data": "8"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "3"
+                     }
+                  ],
+                  "_label": "Congregations",
+                  "_data": "3"
+               },
+               {
+                  "NormalizationVariable": [
+                     {
+                        "_label": "as % of Total Population",
+                        "_data": "6"
+                     },
+                     {
+                        "_label": "as % of Total Members",
+                        "_data": "7"
+                     },
+                     {
+                        "_label": "as Counts",
+                        "_data": "2"
+                     }
+                  ],
+                  "_label": "Members",
+                  "_data": "2"
+               }
+            ],
+            "_label": "1890",
+            "_data": "1890"
+         }
+      ]
+   }
+}
