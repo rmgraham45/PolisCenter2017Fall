@@ -1,0 +1,24 @@
+{
+  "name": "religion-atlas",
+  "version": "0.0.1",
+  "description": "The Digital Atlas of American Religion is a product of the Virtual Center for Spatial Humanities, a collaboration among The Polis Center at Indiana University Purdue University-Indianapolis (IUPUI), Florida State University, and West Virginia University. For studies using data from the US census, voting statistics, or any other spatially-referenced data, the tools permit researchers to group and map categories easily and in new ways or to aggregate data by user-defined classifications. The tools enhance GIS to make maps more complex, more visually dynamic, and more easily interpreted.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mketiku/d3-example.git"
+  },
+  "keywords": [
+    "relgion",
+    "atlas",
+    "religion-atlas"
+  ],
+  "author": "Michael Ketiku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mketiku/d3-example/issues"
+  },
+  "homepage": "https://github.com/mketiku/d3-example#readme"
+}
