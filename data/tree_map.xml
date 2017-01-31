@@ -1,0 +1,11 @@
+<Religions>
+<data label="Baptist" data1="7.98" color="0xFF3030" data2="70250" />
+<data label="Catholic" data1="19.09" color="0x00A8CE" data2="21014" />
+<data label="Christian and Restorationist" data1="1.25" color="0x07CF00" data2="21628" />
+<data label="Latter-day Saints (Mormonism)" data1="2.03" color="0xD4A682" data2="14393" />
+<data label="Lutheran" data1="2.23" color="0xFF9600" data2="17818" />
+<data label="Methodist" data1="3.85" color="0xFFFC00" data2="42741" />
+<data label="Pentecostal and Holiness" data1="2.54" color="0x734C00" data2="48968" />
+<data label="Reformed, Presb, Cong" data1="2.46" color="0xC500FF" data2="32896" />
+<data label="Other" data1="3.9" color="0x808080" data2="42485" />
+</Religions>

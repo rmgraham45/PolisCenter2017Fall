@@ -1,6 +1,8 @@
 body {
   background: #f1f1f1;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
 }
 .graph-div  {
 	width:80%;
@@ -31,13 +33,13 @@ height:500px;
     border-radius: 8px 8px 8px 8px;
     box-shadow: -3px 3px 15px #888888;
     color: black;
-    font: 12px sans-serif;
+    font-size: 10px;
     padding: 5px;
     text-align: left;
 }
 
 .tooltip-title {
-    font: 18px sans-serif;
+    /*font-size: 10px;*/
     text-align: center;
     width: 100%;
     border-bottom: 0.1rem solid gray;
@@ -45,7 +47,7 @@ height:500px;
 }
 
 .tooltip-count {
-    font-size: 14px;
+    font-size: 10px;
     display: inline;
     padding-top: 0.5rem;
 }
