@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd src/vendor/semantic/ && gulp build && gulp watch"
+    "build": "cd src/static/vendor/semantic/ && gulp build && gulp watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mketiku/d3-example.git"
+    "url": "git+https://github.com/mketiku/religon-atlas-chart.git"
   },
   "keywords": [
     "relgion",
@@ -19,9 +19,9 @@
   "author": "Michael Ketiku",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mketiku/d3-example/issues"
+    "url": "https://github.com/mketiku/religon-atlas-chart/issues"
   },
-  "homepage": "https://github.com/mketiku/d3-example#readme",
+  "homepage": "https://github.com/mketiku/religon-atlas-chart#readme",
   "dependencies": {
     "semantic-ui": "^2.2.7"
   }
