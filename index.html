@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="src/static/vendor/semantic/dist/semantic.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="src/static/vendor/semantic/dist/semantic.min.css">-->
     <link href=" src/static/css/style.css " rel="stylesheet " type="text/css ">
     <link href="https://fonts.googleapis.com/css?family=Roboto " rel="stylesheet ">
 </head>
@@ -57,37 +57,56 @@
     </div>
   </div>
 </nav>
-<nav class="navbar navbar-default">
-
-</nav>
+<!--<nav class="navbar navbar-default">
+</nav>-->
 <div class="container">
   <div class="row">
     <div class="col col-md-3">
       <form>
-        <fieldset class="form-group pull-left">
-          <legend>Select a Variable</legend>
-          <div class="form-check">
-            <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-        Adherents
-        </label>
-          </div>
-          <div class="form-check">
-            <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2" checked>
-        Members
-        </label>
-          </div>
-          <div class="form-check">
-            <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" checked>
-        Congregations
-        </label>
-          </div>
-        </fieldset>
+      <label for="map-type">Select a Map Type</label>
+      <div class="form-group" id="map-type">
+        <div class="radio">
+          <label><input type="radio" name="optradio">Predominant Religion Families</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio">Religion Characteristics</label>
+        </div>
+        <div class="radio ">
+          <label><input type="radio" name="optradio">Religion Censuses</label>
+        </div>
+      </div>
+      <label for="map-details">Select Map Details</label>
+      <div class="form-group" id="map-details">
+        <select class="form-control" id="sel1">
+          <option>Adherents</option>
+          <option>Congregations</option>
+          <option>Members</option>
+        </select>
+        <!--<label for="sel2">Select Map Details</label>-->
+        <select class="form-control" id="sel2">
+          <option>as % of Total Population</option>
+          <option>as % of Total Adherents</option>
+          <option>as Counts</option>
+        </select>
+      </div>
+           <label for="map-geography">Change Geography</label>
+      <div class="form-group" id="map-geography">
+        <div class="radio">
+          <label><input type="radio" name="optradio">State/USA</label>
+        </div>
+                <div class="radio">
+          <label><input type="radio" name="optradio">County</label>
+        </div>
+        <select class="form-control" id="sel-states">
+          <option>United States</option>
+          <option>Arizona</option>
+          <option>Arkansas</option>
+        </select>
+      </div>
+      <input type="submit" class="btn btn-default" value="Refresh">
       </form>
     </div>
-    <div class="col col-md-9">
+    <div class="col col-md-9" id="graph-holder">
       <div class="graph-div">
         <div class="graph-title ">Pie Chart</div>
         <div id="visualization" class="visualization "> </div>
