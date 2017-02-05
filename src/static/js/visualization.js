@@ -4,7 +4,8 @@
 
 
 //margin variable is used to give margin to the svg element. Using this you can design relative position code
-var margin = {
+function visualizePieChart(data){
+	var margin = {
 		top: 20,
 		right: 10,
 		bottom: 100,
@@ -42,6 +43,7 @@ d3.xml("data/religiontree.xml", function (error, data) {
 		alert("Enable to load XML file")
 	};
 	console.log(data);
+	// initial data
 
 	// Convert the XML document to an array of objects.
 	// Note that querySelectorAll returns a NodeList, not a proper Array,
@@ -54,7 +56,7 @@ d3.xml("data/religiontree.xml", function (error, data) {
 		};
 	});
 	console.log(data)
-
+	// data converted into an array
 	//************************************************************
 	// Add SVG and draw donut chart using config
 	//************************************************************
@@ -143,3 +145,4 @@ d3.xml("data/religiontree.xml", function (error, data) {
 
 
 });
+}
