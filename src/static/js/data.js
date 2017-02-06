@@ -3,7 +3,7 @@ const cors_proxy = 'https://crossorigin.me/';
 $(document).ready(() => {
   $('#map-info').on('submit', (e) => {
     e.preventDefault();
-    let geo,
+    let geog,
       rcvi,
       DominantReligion,
       dy,
@@ -17,8 +17,8 @@ $(document).ready(() => {
       FromPie,
       parameters; // parameters for the query to ajax
 
-    data = {
-      geo: $('input:radio[name=opt-map-geography]:checked').val(),
+    parameters = {
+      geog: $('input:radio[name=opt-map-geography]:checked').val(),
       rcvi: '4',
       DominantReligion: $('input:radio[name=opt-map-type]:checked').val(),
       dy: $('#sel3').val(),
@@ -32,22 +32,23 @@ $(document).ready(() => {
       FromPie: 'true',
 
     };
-    console.log(data);
+    console.log(parameters);
     $form = $('form.map-info');
-    parameters = $.param(data);
+    parameters = $.param(parameters);
     const url = 'http://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?';
-    $.ajax({
-      type: 'GET',
-      url: cors_proxy + url + parameters,
-      success(result) {
-        console.log('success');
-        console.log(result);
-        visualizePieChart(result);
-      },
-      error(error) {
-        console.log(error);
-      },
-    });
+    // $.ajax({
+    //   type: 'GET',
+    //   url: url + parameters,
+    //   success(result) {
+    //     console.log('success');
+    //     console.log(result);
+    //     visualizePieChart(result);
+    //   },
+    //   error(error) {
+    //     console.log(error);
+    //   },
+    // });
+    visualizePieChart(url+ parameters)
   });
 
   function getYears() {
@@ -55,7 +56,8 @@ $(document).ready(() => {
     $.ajax({
             // Get list of applicable years and appends the value to dropdown menu
       type: 'GET',
-      url: cors_proxy + url,
+      // url: cors_proxy + url,
+      url: url,
       success(xml) {
         $(xml).find('ReligionCensusYear').each(function () {
           const year = $(this).attr('data');

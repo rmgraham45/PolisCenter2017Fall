@@ -4,7 +4,7 @@
 
 
 //margin variable is used to give margin to the svg element. Using this you can design relative position code
-function visualizePieChart(data){
+function visualizePieChart(url){
 	var margin = {
 		top: 20,
 		right: 10,
@@ -37,7 +37,7 @@ var pie = d3.pie().sort(null)
 		console.log('ok')
 		return d.data1;
 	});
-d3.xml("data/religiontree.xml", function (error, data) {
+d3.xml(url, function (error, data) {
 	if (error) {
 		throw error;
 		alert("Enable to load XML file")
