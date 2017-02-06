@@ -35,7 +35,7 @@ $(document).ready(() => {
     console.log(parameters);
     $form = $('form.map-info');
     parameters = $.param(parameters);
-    const url = 'http://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?';
+    const url = 'https://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?';
     // $.ajax({
     //   type: 'GET',
     //   url: url + parameters,
@@ -52,7 +52,7 @@ $(document).ready(() => {
   });
 
   function getYears() {
-    const url = 'http://in-polis-app28.ads.iu.edu/daarws/religioncensusvariables.xml';
+    const url = 'https://in-polis-app28.ads.iu.edu/daarws/religioncensusvariables.xml';
     $.ajax({
             // Get list of applicable years and appends the value to dropdown menu
       type: 'GET',
