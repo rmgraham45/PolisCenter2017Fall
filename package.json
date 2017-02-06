@@ -4,8 +4,10 @@
   "description": "The Digital Atlas of American Religion is a product of the Virtual Center for Spatial Humanities, a collaboration among The Polis Center at Indiana University Purdue University-Indianapolis (IUPUI), Florida State University, and West Virginia University. For studies using data from the US census, voting statistics, or any other spatially-referenced data, the tools permit researchers to group and map categories easily and in new ways or to aggregate data by user-defined classifications. The tools enhance GIS to make maps more complex, more visually dynamic, and more easily interpreted.",
   "main": "index.js",
   "scripts": {
+    "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd src/static/vendor/semantic/ && gulp build && gulp watch"
+    "build": "cd src/static/vendor/semantic/ && gulp build && gulp watch",
+    "lint": "eslint --fix"
   },
   "repository": {
     "type": "git",
