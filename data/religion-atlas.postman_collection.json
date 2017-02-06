@@ -1,0 +1,249 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Religion Atlas",
+		"_postman_id": "05ce6456-5523-cf47-7aa5-85a28a9929e6",
+		"description": "API for religionatlas.org\n\n\n\nGathered by MK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Base Site Daarws",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetCensusVariablesNoPlease.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetCensusVariablesNoPlease.aspx",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetReligionTree.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetReligionTree.aspx",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetReligiousTypologyTypes.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetReligiousTypologyTypes.aspx",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetCensusVariables.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetCensusVariables.aspx",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetDominantReligionLabel.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetDominantReligionLabel.aspx?rcvi=4&geog=COUNTRY&dy=2010&glid=011&dgeog=STATE&drank=1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "?rcvi=4&geog=COUNTRY&dy=2010&glid=011&dgeog=STATE&drank=1"
+			},
+			"response": []
+		},
+		{
+			"name": "GetDominantReligionsData.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetDominantReligionsData.aspx?rcvi=4&geog=COUNTRY&dy=2000&glid=011&dgeog=STATE",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "?rcvi=4&geog=COUNTRY&dy=2000&glid=011&dgeog=STATE"
+			},
+			"response": []
+		},
+		{
+			"name": "GetLegendGraphicForDominantReligions.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetLegendGraphicForDominantReligions.aspx?rcvi=4&geog=COUNTRY&dy=2000&glid=011&dgeog=STATE&drank=1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "792556b2-59af-46e6-9d2e-c9eeb7533b2e",
+					"name": "cvbczvx",
+					"originalRequest": {
+						"url": "http://in-polis-app28.ads.iu.edu/daarws/GetLegendGraphicForDominantReligions.aspx?rcvi=4&geog=COUNTRY&dy=2001&glid=011&dgeog=STATE&drank=1",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plainText",
+					"_postman_previewtype": "image",
+					"header": [
+						{
+							"name": "Cache-Control",
+							"key": "Cache-Control",
+							"value": "public",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "1272",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "image/png",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 04 Feb 2017 18:44:59 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Microsoft-IIS/7.5",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-AspNet-Version",
+							"key": "X-AspNet-Version",
+							"value": "2.0.50727",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 10629,
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "GetDominantReligionsLimits.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetDominantReligionsLimits.aspx?rcvi=4&geog=COUNTRY&dy=2010&glid=011",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "religioncensusvariables.xml",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/religioncensusvariables.xml",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetTreeMapData.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?geog=COUNTRY&rcvi=4&DominantReligion=2&dy=2000&glid=011&dy2=2010&rcvi2=4&NumberofClusters=5&ColorScheme=Reds&DenomFamily=0&DenomFamily2=0&FromPie=true",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "counties.xml",
+			"request": {
+				"url": "http://religionatlas.org/daar/counties.xml",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetCartograms.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetCartograms.aspx?rcvi=1&geog=COUNTRY&dy=2000&glid=011&dgeog=STATE&rank=1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetDenominationalFamilyLabel.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetDenominationalFamilyLabel.aspx?dfi=10&geog=STATE&rcvi=4&dy=2000",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetDenomLimits.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetDenomLimits.aspx?rcvi=4&DataYear=2000&familyid=10",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetCensusDataWithValue.aspx",
+			"request": {
+				"url": "http://in-polis-app28.ads.iu.edu/daarws/GetCensusDataWithValue.aspx?&geog=ALLCOUNTIES&UseCensus1=36&dy=2000&noc=5&cs=ylgnbu&glid=000",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
