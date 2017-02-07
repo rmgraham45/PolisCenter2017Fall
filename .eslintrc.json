@@ -6,6 +6,8 @@
   "rules": {
     "func-names": ["error", "never"],
     "no-undef": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "no-console": "off",
+     "jsx-a11y/no-marquee": "off"
   }
 }
