@@ -31,7 +31,8 @@ function getCensusType() {
           const $this = $(this);
           typeLabel = $this.attr('label');
           typeData = $this.attr('data');
-          $('#sel1').append(`<option value='${typeData}'>${typeLabel}</option>`);
+          $('#sel1')
+            .append(`<option value='${typeData}'>${typeLabel}</option>`);
         });
     },
     error(error) {
@@ -51,13 +52,14 @@ function getCensusPercentage(name) {
       // console.log(xml)
 
       $(xml)
-        .find('ReligionCensusYear:first ReligionCensusVariable[label="' + name + '"] NormalizationVariable')
+        .find(`ReligionCensusYear:first ReligionCensusVariable[label='${name}'] NormalizationVariable`)
         .each(function () {
           percentageLabel = $(this).attr('label');
           percentageData = $(this).attr('data');
           console.log(percentageData);
           console.log(percentageLabel);
-          $('#sel2').append(`<option value='${percentageData}'>${percentageLabel}</option>`);
+          $('#sel2')
+            .append(`<option value='${percentageData}'>${percentageLabel}</option>`);
         });
     },
     error(error) {
