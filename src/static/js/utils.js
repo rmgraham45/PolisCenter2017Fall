@@ -31,7 +31,8 @@ function getCensusType() {
           const $this = $(this);
           typeLabel = $this.attr('label');
           typeData = $this.attr('data');
-          $('#sel1').append(`<option value='${typeData}'>${typeLabel}</option>`);
+          $('#sel1')
+            .append(`<option value='${typeData}'>${typeLabel}</option>`);
         });
     },
     error(error) {
@@ -51,13 +52,49 @@ function getCensusPercentage(name) {
       // console.log(xml)
 
       $(xml)
-        .find('ReligionCensusYear:first ReligionCensusVariable[label="' + name + '"] NormalizationVariable')
+        .find(`ReligionCensusYear:first ReligionCensusVariable[label='${name}'] NormalizationVariable`)
         .each(function () {
           percentageLabel = $(this).attr('label');
           percentageData = $(this).attr('data');
           console.log(percentageData);
           console.log(percentageLabel);
-          $('#sel2').append(`<option value='${percentageData}'>${percentageLabel}</option>`);
+          $('#sel2')
+            .append(`<option value='${percentageData}'>${percentageLabel}</option>`);
+        });
+    },
+    error(error) {
+      // alert(error);
+      console.log(error);
+    },
+  });
+}
+
+function getCounties(value) {
+  const url = 'https://in-polis-app28.ads.iu.edu/daarws/counties.xml';
+  $.ajax({
+    // Get list of applicable years and appends the value to dropdown menu
+    type: 'GET',
+    url,
+    success(xml) {
+      // console.log(xml)
+      $(xml)
+        .find(`Counties Item data`)
+        .each(function () {
+           if ($(this).text() === value){
+              console.log($(this))
+              $('#map-geography').append(function(){
+                // $('#sel-county')
+                //      .append(`<option value='${percentageData}'>${percentageLabel}</option>`);
+                  // $(this).parent().attr('data')
+            })// form
+           }
+        
+          // percentageLabel = $(this).attr('label');
+          // percentageData = $(this).attr('data');
+          // console.log(percentageData);
+          // console.log(percentageLabel);
+          // $('#sel2')
+          //   .append(`<option value='${percentageData}'>${percentageLabel}</option>`);            
         });
     },
     error(error) {

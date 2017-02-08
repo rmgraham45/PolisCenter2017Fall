@@ -21,18 +21,17 @@ $(document).ready(() => {
 
     parameters = {
       geog: $('input:radio[name=opt-map-geography]:checked').val(),
-      rcvi: $('#sel1').val(),
+      rcvi: $('#sel2').val(),
       DominantReligion: $('input:radio[name=opt-map-representation]:checked').val(),
       dy: $('#sel3').val(),
       glid: '011',
       dy2: $('#sel3').val(),
-      rcvi2: $('#sel2').val(),
+      rcvi2: $('#sel1').val(),
       NumberofClusters: '5',
       ColorScheme: 'Reds',
       DenomFamily: '0',
       DenomFamily2: '0',
       FromPie: 'true',
-      // $('input[name="opt-map-representation"]:checked').val()
     };
     $form = $('form.map-info');
     console.log(parameters);
@@ -45,6 +44,20 @@ $(document).ready(() => {
   $('#sel1').change(function () {
     // alert($(this).val());
     const name = $('#sel1 option:selected').text();
+    $('#sel2').empty();
     getCensusPercentage(name);
   });
+
+  $('input:radio[name=opt-map-geography]').change(function() {
+    if($(this).val() === 'COUNTY') {
+		    var glid = $('#sel-states').val() // id number for states
+        getCounties(glid);
+        console.log("COUNTY") 
+
+    }
+    else {
+
+		console.log("COUNTRY")	
+}}
+);
 });
