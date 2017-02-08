@@ -32,7 +32,6 @@ $(document).ready(() => {
       DenomFamily: '0',
       DenomFamily2: '0',
       FromPie: 'true',
-      // $('input[name="opt-map-representation"]:checked').val()
     };
     $form = $('form.map-info');
     console.log(parameters);
@@ -48,4 +47,17 @@ $(document).ready(() => {
     $('#sel2').empty();
     getCensusPercentage(name);
   });
+
+  $('input:radio[name=opt-map-geography]').change(function() {
+    if($(this).val() === 'COUNTY') {
+		    var glid = $('#sel-states').val() // id number for states
+        getCounties(glid);
+        console.log("COUNTY") 
+
+    }
+    else {
+
+		console.log("COUNTRY")	
+}}
+);
 });
