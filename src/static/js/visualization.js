@@ -42,7 +42,6 @@ d3.xml(url, function (error, data) {
 		throw error;
 		alert("Enable to load XML file")
 	};
-	console.log(data);
 	// initial data
 
 	// Convert the XML document to an array of objects.

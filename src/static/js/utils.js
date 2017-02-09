@@ -56,8 +56,8 @@ function getCensusPercentage(name) {
         .each(function () {
           percentageLabel = $(this).attr('label');
           percentageData = $(this).attr('data');
-          console.log(percentageData);
-          console.log(percentageLabel);
+          // console.log(percentageData);
+          // console.log(percentageLabel);
           $('#sel2')
             .append(`<option value='${percentageData}'>${percentageLabel}</option>`);
         });
@@ -78,29 +78,68 @@ function getCounties(value) {
     success(xml) {
       // console.log(xml)
       $(xml)
-        .find(`Counties Item data`)
+        .find('Counties Item data')
         .each(function () {
-           if ($(this).text() === value){
-              console.log($(this))
-              $('#map-geography').append(function(){
-                // $('#sel-county')
-                //      .append(`<option value='${percentageData}'>${percentageLabel}</option>`);
-                  // $(this).parent().attr('data')
-            })// form
-           }
-        
-          // percentageLabel = $(this).attr('label');
-          // percentageData = $(this).attr('data');
-          // console.log(percentageData);
-          // console.log(percentageLabel);
-          // $('#sel2')
-          //   .append(`<option value='${percentageData}'>${percentageLabel}</option>`);            
+          if ($(this).text() === value) {
+            const data = $(this).siblings('data1').text();
+            const label = $(this).siblings('label').text();
+            $('#map-geography').append(function () {
+              $('#sel-county')
+                .append(`<option value='${data}'>${label}</option>`);
+            }); // form
+          }
         });
     },
     error(error) {
       // alert(error);
       console.log(error);
     },
+  });
+}
+
+function submitForm() {
+  $('#map-info').on('submit', (e) => {
+    e.preventDefault();
+    let geog,
+      rcvi,
+      DominantReligion,
+      dy,
+      glid,
+      dy2,
+      rcvi2,
+      NumberofClusters,
+      ColorScheme,
+      DenomFamily,
+      DenomFamily2,
+      FromPie,
+      parameters; // parameters for the query to ajax
+
+    if (!$('#sel-county option:selected').length) {
+      glid = '011'; // gets global identifier for state or county. 011 = US
+    } else {
+      glid = $('#sel-county').val();
+    }
+
+    parameters = {
+      geog: $('input:radio[name=opt-map-geography]:checked').val(),
+      rcvi: $('#sel2').val(),
+      DominantReligion: $('input:radio[name=opt-map-representation]:checked').val(),
+      dy: $('#sel3').val(),
+      glid,
+      dy2: $('#sel3').val(),
+      rcvi2: $('#sel1').val(),
+      NumberofClusters: '5',
+      ColorScheme: 'Reds',
+      DenomFamily: '0',
+      DenomFamily2: '0',
+      FromPie: 'true',
+    };
+    $form = $('form.map-info');
+    console.log(parameters);
+    parameters = $.param(parameters);
+    const url = 'https://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?';
+    deleteSvg();
+    visualizePieChart(url + parameters);
   });
 }
 
