@@ -81,11 +81,11 @@ function getCounties(value) {
         .find('Counties Item data')
         .each(function () {
           if ($(this).text() === value) {
-            const data = $(this).siblings('data1').text();
             const label = $(this).siblings('label').text();
+            const fips = $(this).siblings('fips').text();
             $('#map-geography').append(function () {
               $('#sel-county')
-                .append(`<option value='${data}'>${label}</option>`);
+                .append(`<option value='${fips}'>${label}</option>`);
             }); // form
           }
         });
@@ -127,7 +127,7 @@ function submitForm() {
       dy: $('#sel3').val(),
       glid,
       dy2: $('#sel3').val(),
-      rcvi2: $('#sel1').val(),
+      rcvi2: $('#sel2').val(),
       NumberofClusters: '5',
       ColorScheme: 'Reds',
       DenomFamily: '0',
