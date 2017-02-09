@@ -23,6 +23,9 @@ $(document).ready(() => {
   $('input:radio[name=opt-map-geography]').change(() => {
     setCounties();
     console.log('counties set');
+    if ($('input:radio[name=opt-map-geography]:checked').val() === 'COUNTRY') {
+      $('#sel-county').empty();
+    }
   });
   $('#sel-states').change(() => {
     $('#sel-county').empty();
