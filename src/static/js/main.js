@@ -32,4 +32,13 @@ $(document).ready(() => {
     setCounties();
     console.log('state changed');
   });
+
+  // Form submit function.
+  function autoSubmitForm() {
+    console.log('Submitting form...');
+    $('#map-info').submit();
+  }
+  const autoSubmit = setTimeout(() => {
+    autoSubmitForm();
+  }, 1000);
 });
