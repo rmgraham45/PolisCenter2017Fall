@@ -1,0 +1,3473 @@
+{
+   "@title": "Dominant Denominational Families",
+   "geography": [
+      {
+         "@key": "MA",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Massachusetts - Catholic - 0.4490",
+               "@value": "0.4490",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Massachusetts - Reformed, Presb, Cong - 0.0172",
+               "@value": "0.0172",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Massachusetts - Episcopal and Anglican - 0.0125",
+               "@value": "0.0125",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Massachusetts - Pentecostal and Holiness - 0.0107",
+               "@value": "0.0107",
+               "@coloRank": "19"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Massachusetts - Baptist - 0.0102",
+               "@value": "0.0102",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Massachusetts - Methodist - 0.0101",
+               "@value": "0.0101",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Massachusetts - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Massachusetts - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Massachusetts - Lutheran - 0.0046",
+               "@value": "0.0046",
+               "@coloRank": "4"
+            }
+         ]
+      },
+      {
+         "@key": "RI",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Rhode Island - Catholic - 0.4433",
+               "@value": "0.4433",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Rhode Island - Episcopal and Anglican - 0.0184",
+               "@value": "0.0184",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Rhode Island - Baptist - 0.0156",
+               "@value": "0.0156",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Rhode Island - Reformed, Presb, Cong - 0.0113",
+               "@value": "0.0113",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Rhode Island - Pentecostal and Holiness - 0.0082",
+               "@value": "0.0082",
+               "@coloRank": "17"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Rhode Island - Methodist - 0.0081",
+               "@value": "0.0081",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Rhode Island - Lutheran - 0.0060",
+               "@value": "0.0060",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Rhode Island - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Rhode Island - Latter-day Saints (Mormonism) - 0.0038",
+               "@value": "0.0038",
+               "@coloRank": "5"
+            }
+         ]
+      },
+      {
+         "@key": "NJ",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "New Jersey - Catholic - 0.3680",
+               "@value": "0.3680",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "New Jersey - Reformed, Presb, Cong - 0.0275",
+               "@value": "0.0275",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "New Jersey - Baptist - 0.0222",
+               "@value": "0.0222",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "New Jersey - Methodist - 0.0212",
+               "@value": "0.0212",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "New Jersey - Pentecostal and Holiness - 0.0136",
+               "@value": "0.0136",
+               "@coloRank": "15"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "New Jersey - Lutheran - 0.0092",
+               "@value": "0.0092",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "New Jersey - Episcopal and Anglican - 0.0086",
+               "@value": "0.0086",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "New Jersey - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "New Jersey - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "CT",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Connecticut - Catholic - 0.3510",
+               "@value": "0.3510",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Connecticut - Reformed, Presb, Cong - 0.0328",
+               "@value": "0.0328",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Connecticut - Methodist - 0.0179",
+               "@value": "0.0179",
+               "@coloRank": "13"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Connecticut - Episcopal and Anglican - 0.0166",
+               "@value": "0.0166",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Connecticut - Baptist - 0.0153",
+               "@value": "0.0153",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Connecticut - Pentecostal and Holiness - 0.0115",
+               "@value": "0.0115",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Connecticut - Lutheran - 0.0099",
+               "@value": "0.0099",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Connecticut - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Connecticut - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "NY",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "New York - Catholic - 0.3245",
+               "@value": "0.3245",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "New York - Methodist - 0.0221",
+               "@value": "0.0221",
+               "@coloRank": "17"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "New York - Reformed, Presb, Cong - 0.0181",
+               "@value": "0.0181",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "New York - Baptist - 0.0160",
+               "@value": "0.0160",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "New York - Pentecostal and Holiness - 0.0130",
+               "@value": "0.0130",
+               "@coloRank": "16"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "New York - Lutheran - 0.0105",
+               "@value": "0.0105",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "New York - Episcopal and Anglican - 0.0084",
+               "@value": "0.0084",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "New York - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "New York - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "IL",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Illinois - Catholic - 0.2844",
+               "@value": "0.2844",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Illinois - Baptist - 0.0396",
+               "@value": "0.0396",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Illinois - Lutheran - 0.0371",
+               "@value": "0.0371",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Illinois - Reformed, Presb, Cong - 0.0298",
+               "@value": "0.0298",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Illinois - Methodist - 0.0291",
+               "@value": "0.0291",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Illinois - Pentecostal and Holiness - 0.0202",
+               "@value": "0.0202",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Illinois - Christian and Restorationist - 0.0157",
+               "@value": "0.0157",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Illinois - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Illinois - Latter-day Saints (Mormonism) - 0.0048",
+               "@value": "0.0048",
+               "@coloRank": "4"
+            }
+         ]
+      },
+      {
+         "@key": "NM",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "New Mexico - Catholic - 0.2841",
+               "@value": "0.2841",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "New Mexico - Baptist - 0.0566",
+               "@value": "0.0566",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "New Mexico - Latter-day Saints (Mormonism) - 0.0331",
+               "@value": "0.0331",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "New Mexico - Pentecostal and Holiness - 0.0249",
+               "@value": "0.0249",
+               "@coloRank": "12"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "New Mexico - Methodist - 0.0190",
+               "@value": "0.0190",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "New Mexico - Reformed, Presb, Cong - 0.0146",
+               "@value": "0.0146",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "New Mexico - Christian and Restorationist - 0.0116",
+               "@value": "0.0116",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "New Mexico - Lutheran - 0.0056",
+               "@value": "0.0056",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "New Mexico - Episcopal and Anglican - 0.0052",
+               "@value": "0.0052",
+               "@coloRank": "6"
+            }
+         ]
+      },
+      {
+         "@key": "PA",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Pennsylvania - Catholic - 0.2758",
+               "@value": "0.2758",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Pennsylvania - Reformed, Presb, Cong - 0.0577",
+               "@value": "0.0577",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Pennsylvania - Methodist - 0.0537",
+               "@value": "0.0537",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Pennsylvania - Lutheran - 0.0410",
+               "@value": "0.0410",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Pennsylvania - Pentecostal and Holiness - 0.0209",
+               "@value": "0.0209",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Pennsylvania - Baptist - 0.0202",
+               "@value": "0.0202",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Pennsylvania - Episcopal and Anglican - 0.0067",
+               "@value": "0.0067",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Pennsylvania - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Pennsylvania - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "CA",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "California - Catholic - 0.2747",
+               "@value": "0.2747",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "California - Pentecostal and Holiness - 0.0225",
+               "@value": "0.0225",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "California - Latter-day Saints (Mormonism) - 0.0207",
+               "@value": "0.0207",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "California - Baptist - 0.0196",
+               "@value": "0.0196",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "California - Reformed, Presb, Cong - 0.0132",
+               "@value": "0.0132",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "California - Methodist - 0.0094",
+               "@value": "0.0094",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "California - Lutheran - 0.0064",
+               "@value": "0.0064",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "California - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "California - Christian and Restorationist - 0.0050",
+               "@value": "0.0050",
+               "@coloRank": "5"
+            }
+         ]
+      },
+      {
+         "@key": "LA",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Louisiana - Catholic - 0.2649",
+               "@value": "0.2649",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Louisiana - Baptist - 0.1951",
+               "@value": "0.1951",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Louisiana - Methodist - 0.0412",
+               "@value": "0.0412",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Louisiana - Pentecostal and Holiness - 0.0242",
+               "@value": "0.0242",
+               "@coloRank": "13"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Louisiana - Reformed, Presb, Cong - 0.0077",
+               "@value": "0.0077",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Louisiana - Christian and Restorationist - 0.0069",
+               "@value": "0.0069",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Louisiana - Latter-day Saints (Mormonism) - 0.0064",
+               "@value": "0.0064",
+               "@coloRank": "14"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Louisiana - Episcopal and Anglican - 0.0062",
+               "@value": "0.0062",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Louisiana - Lutheran - 0.0035",
+               "@value": "0.0035",
+               "@coloRank": "5"
+            }
+         ]
+      },
+      {
+         "@key": "WI",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Wisconsin - Catholic - 0.2507",
+               "@value": "0.2507",
+               "@coloRank": "12"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Wisconsin - Lutheran - 0.1482",
+               "@value": "0.1482",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Wisconsin - Reformed, Presb, Cong - 0.0280",
+               "@value": "0.0280",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Wisconsin - Methodist - 0.0233",
+               "@value": "0.0233",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Wisconsin - Pentecostal and Holiness - 0.0170",
+               "@value": "0.0170",
+               "@coloRank": "12"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Wisconsin - Baptist - 0.0110",
+               "@value": "0.0110",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Wisconsin - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Wisconsin - Latter-day Saints (Mormonism) - 0.0045",
+               "@value": "0.0045",
+               "@coloRank": "13"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Wisconsin - Episcopal and Anglican - 0.0032",
+               "@value": "0.0032",
+               "@coloRank": "13"
+            }
+         ]
+      },
+      {
+         "@key": "NH",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "New Hampshire - Catholic - 0.2363",
+               "@value": "0.2363",
+               "@coloRank": "13"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "New Hampshire - Reformed, Presb, Cong - 0.0261",
+               "@value": "0.0261",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "New Hampshire - Methodist - 0.0160",
+               "@value": "0.0160",
+               "@coloRank": "14"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "New Hampshire - Baptist - 0.0129",
+               "@value": "0.0129",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "New Hampshire - Episcopal and Anglican - 0.0111",
+               "@value": "0.0111",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "New Hampshire - Pentecostal and Holiness - 0.0075",
+               "@value": "0.0075",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "New Hampshire - Latter-day Saints (Mormonism) - 0.0063",
+               "@value": "0.0063",
+               "@coloRank": "15"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "New Hampshire - Lutheran - 0.0044",
+               "@value": "0.0044",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "New Hampshire - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "MN",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Minnesota - Catholic - 0.2169",
+               "@value": "0.2169",
+               "@coloRank": "14"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Minnesota - Lutheran - 0.1858",
+               "@value": "0.1858",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Minnesota - Reformed, Presb, Cong - 0.0300",
+               "@value": "0.0300",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Minnesota - Pentecostal and Holiness - 0.0239",
+               "@value": "0.0239",
+               "@coloRank": "14"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Minnesota - Methodist - 0.0210",
+               "@value": "0.0210",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Minnesota - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Minnesota - Latter-day Saints (Mormonism) - 0.0060",
+               "@value": "0.0060",
+               "@coloRank": "16"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Minnesota - Baptist - 0.0055",
+               "@value": "0.0055",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Minnesota - Episcopal and Anglican - 0.0045",
+               "@value": "0.0045",
+               "@coloRank": "9"
+            }
+         ]
+      },
+      {
+         "@key": "VT",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Vermont - Catholic - 0.2050",
+               "@value": "0.2050",
+               "@coloRank": "15"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Vermont - Reformed, Presb, Cong - 0.0307",
+               "@value": "0.0307",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Vermont - Methodist - 0.0242",
+               "@value": "0.0242",
+               "@coloRank": "12"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Vermont - Baptist - 0.0147",
+               "@value": "0.0147",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Vermont - Pentecostal and Holiness - 0.0137",
+               "@value": "0.0137",
+               "@coloRank": "14"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Vermont - Episcopal and Anglican - 0.0112",
+               "@value": "0.0112",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Vermont - Latter-day Saints (Mormonism) - 0.0070",
+               "@value": "0.0070",
+               "@coloRank": "13"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Vermont - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Vermont - Lutheran - 0.0025",
+               "@value": "0.0025",
+               "@coloRank": "8"
+            }
+         ]
+      },
+      {
+         "@key": "NE",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Nebraska - Catholic - 0.2041",
+               "@value": "0.2041",
+               "@coloRank": "16"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Nebraska - Lutheran - 0.1251",
+               "@value": "0.1251",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Nebraska - Methodist - 0.0628",
+               "@value": "0.0628",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Nebraska - Reformed, Presb, Cong - 0.0465",
+               "@value": "0.0465",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Nebraska - Pentecostal and Holiness - 0.0255",
+               "@value": "0.0255",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Nebraska - Baptist - 0.0203",
+               "@value": "0.0203",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Nebraska - Christian and Restorationist - 0.0162",
+               "@value": "0.0162",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Nebraska - Latter-day Saints (Mormonism) - 0.0140",
+               "@value": "0.0140",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Nebraska - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "DE",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Delaware - Catholic - 0.2033",
+               "@value": "0.2033",
+               "@coloRank": "17"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Delaware - Methodist - 0.0718",
+               "@value": "0.0718",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Delaware - Reformed, Presb, Cong - 0.0265",
+               "@value": "0.0265",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Delaware - Pentecostal and Holiness - 0.0201",
+               "@value": "0.0201",
+               "@coloRank": "17"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Delaware - Baptist - 0.0162",
+               "@value": "0.0162",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Delaware - Episcopal and Anglican - 0.0120",
+               "@value": "0.0120",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Delaware - Lutheran - 0.0098",
+               "@value": "0.0098",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Delaware - Latter-day Saints (Mormonism) - 0.0057",
+               "@value": "0.0057",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Delaware - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "TX",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Texas - Catholic - 0.1859",
+               "@value": "0.1859",
+               "@coloRank": "18"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Texas - Baptist - 0.1574",
+               "@value": "0.1574",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Texas - Methodist - 0.0455",
+               "@value": "0.0455",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Texas - Pentecostal and Holiness - 0.0206",
+               "@value": "0.0206",
+               "@coloRank": "16"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Texas - Christian and Restorationist - 0.0186",
+               "@value": "0.0186",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Texas - Reformed, Presb, Cong - 0.0143",
+               "@value": "0.0143",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Texas - Latter-day Saints (Mormonism) - 0.0120",
+               "@value": "0.0120",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Texas - Lutheran - 0.0100",
+               "@value": "0.0100",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Texas - Episcopal and Anglican - 0.0059",
+               "@value": "0.0059",
+               "@coloRank": "4"
+            }
+         ]
+      },
+      {
+         "@key": "HI",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Hawaii - Catholic - 0.1835",
+               "@value": "0.1835",
+               "@coloRank": "19"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Hawaii - Latter-day Saints (Mormonism) - 0.0514",
+               "@value": "0.0514",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Hawaii - Pentecostal and Holiness - 0.0451",
+               "@value": "0.0451",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Hawaii - Reformed, Presb, Cong - 0.0174",
+               "@value": "0.0174",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Hawaii - Baptist - 0.0143",
+               "@value": "0.0143",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Hawaii - Methodist - 0.0079",
+               "@value": "0.0079",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Hawaii - Episcopal and Anglican - 0.0051",
+               "@value": "0.0051",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Hawaii - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Hawaii - Lutheran - 0.0031",
+               "@value": "0.0031",
+               "@coloRank": "6"
+            }
+         ]
+      },
+      {
+         "@key": "MI",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Michigan - Catholic - 0.1738",
+               "@value": "0.1738",
+               "@coloRank": "20"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Michigan - Reformed, Presb, Cong - 0.0414",
+               "@value": "0.0414",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Michigan - Lutheran - 0.0384",
+               "@value": "0.0384",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Michigan - Methodist - 0.0281",
+               "@value": "0.0281",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Michigan - Baptist - 0.0273",
+               "@value": "0.0273",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Michigan - Pentecostal and Holiness - 0.0270",
+               "@value": "0.0270",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Michigan - Latter-day Saints (Mormonism) - 0.0058",
+               "@value": "0.0058",
+               "@coloRank": "17"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Michigan - Christian and Restorationist - 0.0056",
+               "@value": "0.0056",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Michigan - Episcopal and Anglican - 0.0041",
+               "@value": "0.0041",
+               "@coloRank": "10"
+            }
+         ]
+      },
+      {
+         "@key": "OH",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Ohio - Catholic - 0.1727",
+               "@value": "0.1727",
+               "@coloRank": "21"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Ohio - Methodist - 0.0481",
+               "@value": "0.0481",
+               "@coloRank": "15"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Ohio - Baptist - 0.0346",
+               "@value": "0.0346",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Ohio - Pentecostal and Holiness - 0.0327",
+               "@value": "0.0327",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Ohio - Reformed, Presb, Cong - 0.0319",
+               "@value": "0.0319",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Ohio - Lutheran - 0.0258",
+               "@value": "0.0258",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Ohio - Christian and Restorationist - 0.0207",
+               "@value": "0.0207",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Ohio - Latter-day Saints (Mormonism) - 0.0055",
+               "@value": "0.0055",
+               "@coloRank": "12"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Ohio - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "NV",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Nevada - Catholic - 0.1670",
+               "@value": "0.1670",
+               "@coloRank": "22"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Nevada - Latter-day Saints (Mormonism) - 0.0650",
+               "@value": "0.0650",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Nevada - Baptist - 0.0199",
+               "@value": "0.0199",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Nevada - Pentecostal and Holiness - 0.0186",
+               "@value": "0.0186",
+               "@coloRank": "18"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Nevada - Christian and Restorationist - 0.0080",
+               "@value": "0.0080",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Nevada - Lutheran - 0.0075",
+               "@value": "0.0075",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Nevada - Methodist - 0.0060",
+               "@value": "0.0060",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Nevada - Reformed, Presb, Cong - 0.0044",
+               "@value": "0.0044",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Nevada - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "IA",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Iowa - Catholic - 0.1651",
+               "@value": "0.1651",
+               "@coloRank": "23"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Iowa - Lutheran - 0.1109",
+               "@value": "0.1109",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Iowa - Methodist - 0.0798",
+               "@value": "0.0798",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Iowa - Reformed, Presb, Cong - 0.0689",
+               "@value": "0.0689",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Iowa - Christian and Restorationist - 0.0218",
+               "@value": "0.0218",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Iowa - Pentecostal and Holiness - 0.0217",
+               "@value": "0.0217",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Iowa - Baptist - 0.0164",
+               "@value": "0.0164",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Iowa - Latter-day Saints (Mormonism) - 0.0106",
+               "@value": "0.0106",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Iowa - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "CO",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Colorado - Catholic - 0.1614",
+               "@value": "0.1614",
+               "@coloRank": "24"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Colorado - Latter-day Saints (Mormonism) - 0.0288",
+               "@value": "0.0288",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Colorado - Reformed, Presb, Cong - 0.0259",
+               "@value": "0.0259",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Colorado - Pentecostal and Holiness - 0.0216",
+               "@value": "0.0216",
+               "@coloRank": "15"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Colorado - Lutheran - 0.0205",
+               "@value": "0.0205",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Colorado - Baptist - 0.0198",
+               "@value": "0.0198",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Colorado - Methodist - 0.0182",
+               "@value": "0.0182",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Colorado - Christian and Restorationist - 0.0108",
+               "@value": "0.0108",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Colorado - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "KS",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Kansas - Catholic - 0.1495",
+               "@value": "0.1495",
+               "@coloRank": "25"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Kansas - Methodist - 0.0763",
+               "@value": "0.0763",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Kansas - Baptist - 0.0615",
+               "@value": "0.0615",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Kansas - Christian and Restorationist - 0.0417",
+               "@value": "0.0417",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Kansas - Pentecostal and Holiness - 0.0364",
+               "@value": "0.0364",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Kansas - Lutheran - 0.0332",
+               "@value": "0.0332",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Kansas - Reformed, Presb, Cong - 0.0324",
+               "@value": "0.0324",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Kansas - Latter-day Saints (Mormonism) - 0.0141",
+               "@value": "0.0141",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Kansas - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "AZ",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Arizona - Catholic - 0.1456",
+               "@value": "0.1456",
+               "@coloRank": "26"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Arizona - Latter-day Saints (Mormonism) - 0.0618",
+               "@value": "0.0618",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Arizona - Pentecostal and Holiness - 0.0298",
+               "@value": "0.0298",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Arizona - Baptist - 0.0221",
+               "@value": "0.0221",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Arizona - Lutheran - 0.0130",
+               "@value": "0.0130",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Arizona - Christian and Restorationist - 0.0106",
+               "@value": "0.0106",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Arizona - Reformed, Presb, Cong - 0.0105",
+               "@value": "0.0105",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Arizona - Methodist - 0.0099",
+               "@value": "0.0099",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Arizona - Episcopal and Anglican - 0.0039",
+               "@value": "0.0039",
+               "@coloRank": "12"
+            }
+         ]
+      },
+      {
+         "@key": "MD",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Maryland - Catholic - 0.1450",
+               "@value": "0.1450",
+               "@coloRank": "27"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Maryland - Methodist - 0.0597",
+               "@value": "0.0597",
+               "@coloRank": "14"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Maryland - Baptist - 0.0448",
+               "@value": "0.0448",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Maryland - Reformed, Presb, Cong - 0.0185",
+               "@value": "0.0185",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Maryland - Lutheran - 0.0175",
+               "@value": "0.0175",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Maryland - Pentecostal and Holiness - 0.0174",
+               "@value": "0.0174",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Maryland - Episcopal and Anglican - 0.0123",
+               "@value": "0.0123",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Maryland - Latter-day Saints (Mormonism) - 0.0075",
+               "@value": "0.0075",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Maryland - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "ME",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Maine - Catholic - 0.1431",
+               "@value": "0.1431",
+               "@coloRank": "28"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Maine - Methodist - 0.0234",
+               "@value": "0.0234",
+               "@coloRank": "16"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Maine - Reformed, Presb, Cong - 0.0214",
+               "@value": "0.0214",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Maine - Baptist - 0.0178",
+               "@value": "0.0178",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Maine - Pentecostal and Holiness - 0.0143",
+               "@value": "0.0143",
+               "@coloRank": "13"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Maine - Episcopal and Anglican - 0.0094",
+               "@value": "0.0094",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Maine - Latter-day Saints (Mormonism) - 0.0088",
+               "@value": "0.0088",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Maine - Lutheran - 0.0032",
+               "@value": "0.0032",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Maine - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "FL",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Florida - Catholic - 0.1338",
+               "@value": "0.1338",
+               "@coloRank": "29"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Florida - Baptist - 0.0781",
+               "@value": "0.0781",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Florida - Methodist - 0.0323",
+               "@value": "0.0323",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Florida - Pentecostal and Holiness - 0.0285",
+               "@value": "0.0285",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Florida - Reformed, Presb, Cong - 0.0182",
+               "@value": "0.0182",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Florida - Christian and Restorationist - 0.0078",
+               "@value": "0.0078",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Florida - Lutheran - 0.0075",
+               "@value": "0.0075",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Florida - Latter-day Saints (Mormonism) - 0.0075",
+               "@value": "0.0075",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Florida - Episcopal and Anglican - 0.0069",
+               "@value": "0.0069",
+               "@coloRank": "3"
+            }
+         ]
+      },
+      {
+         "@key": "MT",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Montana - Catholic - 0.1290",
+               "@value": "0.1290",
+               "@coloRank": "30"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Montana - Lutheran - 0.0550",
+               "@value": "0.0550",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Montana - Latter-day Saints (Mormonism) - 0.0479",
+               "@value": "0.0479",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Montana - Pentecostal and Holiness - 0.0375",
+               "@value": "0.0375",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Montana - Reformed, Presb, Cong - 0.0223",
+               "@value": "0.0223",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Montana - Methodist - 0.0179",
+               "@value": "0.0179",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Montana - Baptist - 0.0172",
+               "@value": "0.0172",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Montana - Christian and Restorationist - 0.0083",
+               "@value": "0.0083",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Montana - Episcopal and Anglican - 0.0054",
+               "@value": "0.0054",
+               "@coloRank": "5"
+            }
+         ]
+      },
+      {
+         "@key": "WA",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Washington - Catholic - 0.1166",
+               "@value": "0.1166",
+               "@coloRank": "31"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Washington - Latter-day Saints (Mormonism) - 0.0404",
+               "@value": "0.0404",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Washington - Pentecostal and Holiness - 0.0387",
+               "@value": "0.0387",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Washington - Reformed, Presb, Cong - 0.0231",
+               "@value": "0.0231",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Washington - Lutheran - 0.0203",
+               "@value": "0.0203",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Washington - Baptist - 0.0126",
+               "@value": "0.0126",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Washington - Methodist - 0.0117",
+               "@value": "0.0117",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Washington - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Washington - Christian and Restorationist - 0.0064",
+               "@value": "0.0064",
+               "@coloRank": "3"
+            }
+         ]
+      },
+      {
+         "@key": "IN",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Indiana - Catholic - 0.1153",
+               "@value": "0.1153",
+               "@coloRank": "32"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Indiana - Methodist - 0.0602",
+               "@value": "0.0602",
+               "@coloRank": "13"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Indiana - Christian and Restorationist - 0.0463",
+               "@value": "0.0463",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Indiana - Baptist - 0.0419",
+               "@value": "0.0419",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Indiana - Pentecostal and Holiness - 0.0333",
+               "@value": "0.0333",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Indiana - Reformed, Presb, Cong - 0.0259",
+               "@value": "0.0259",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Indiana - Lutheran - 0.0258",
+               "@value": "0.0258",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Indiana - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Indiana - Latter-day Saints (Mormonism) - 0.0066",
+               "@value": "0.0066",
+               "@coloRank": "3"
+            }
+         ]
+      },
+      {
+         "@key": "OR",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Oregon - Catholic - 0.1043",
+               "@value": "0.1043",
+               "@coloRank": "33"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Oregon - Latter-day Saints (Mormonism) - 0.0392",
+               "@value": "0.0392",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Oregon - Pentecostal and Holiness - 0.0378",
+               "@value": "0.0378",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Oregon - Reformed, Presb, Cong - 0.0165",
+               "@value": "0.0165",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Oregon - Christian and Restorationist - 0.0150",
+               "@value": "0.0150",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Oregon - Lutheran - 0.0146",
+               "@value": "0.0146",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Oregon - Baptist - 0.0113",
+               "@value": "0.0113",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Oregon - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Oregon - Methodist - 0.0089",
+               "@value": "0.0089",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "AK",
+         "data": [
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Alaska - Catholic - 0.0716",
+               "@value": "0.0716",
+               "@coloRank": "34"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Alaska - Latter-day Saints (Mormonism) - 0.0460",
+               "@value": "0.0460",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Alaska - Baptist - 0.0322",
+               "@value": "0.0322",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Alaska - Pentecostal and Holiness - 0.0299",
+               "@value": "0.0299",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Alaska - Lutheran - 0.0202",
+               "@value": "0.0202",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Alaska - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Alaska - Reformed, Presb, Cong - 0.0137",
+               "@value": "0.0137",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Alaska - Methodist - 0.0117",
+               "@value": "0.0117",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Alaska - Episcopal and Anglican - 0.0102",
+               "@value": "0.0102",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "UT",
+         "data": [
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Utah - Latter-day Saints (Mormonism) - 0.6914",
+               "@value": "0.6914",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Utah - Catholic - 0.0579",
+               "@value": "0.0579",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Utah - Pentecostal and Holiness - 0.0071",
+               "@value": "0.0071",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Utah - Baptist - 0.0058",
+               "@value": "0.0058",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Utah - Reformed, Presb, Cong - 0.0041",
+               "@value": "0.0041",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Utah - Lutheran - 0.0029",
+               "@value": "0.0029",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Utah - Methodist - 0.0025",
+               "@value": "0.0025",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Utah - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Utah - Episcopal and Anglican - 0.0020",
+               "@value": "0.0020",
+               "@coloRank": "14"
+            }
+         ]
+      },
+      {
+         "@key": "ID",
+         "data": [
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Idaho - Latter-day Saints (Mormonism) - 0.2617",
+               "@value": "0.2617",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Idaho - Catholic - 0.0787",
+               "@value": "0.0787",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Idaho - Pentecostal and Holiness - 0.0348",
+               "@value": "0.0348",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Idaho - Methodist - 0.0261",
+               "@value": "0.0261",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Idaho - Christian and Restorationist - 0.0171",
+               "@value": "0.0171",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Idaho - Baptist - 0.0136",
+               "@value": "0.0136",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Idaho - Lutheran - 0.0124",
+               "@value": "0.0124",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Idaho - Reformed, Presb, Cong - 0.0121",
+               "@value": "0.0121",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Idaho - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "WY",
+         "data": [
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Wyoming - Latter-day Saints (Mormonism) - 0.1123",
+               "@value": "0.1123",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Wyoming - Catholic - 0.1086",
+               "@value": "0.1086",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Wyoming - Baptist - 0.0335",
+               "@value": "0.0335",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Wyoming - Lutheran - 0.0307",
+               "@value": "0.0307",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Wyoming - Pentecostal and Holiness - 0.0246",
+               "@value": "0.0246",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Wyoming - Reformed, Presb, Cong - 0.0216",
+               "@value": "0.0216",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Wyoming - Methodist - 0.0208",
+               "@value": "0.0208",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Wyoming - Episcopal and Anglican - 0.0129",
+               "@value": "0.0129",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Wyoming - Christian and Restorationist - 0.0095",
+               "@value": "0.0095",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "ND",
+         "data": [
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "North Dakota - Lutheran - 0.2834",
+               "@value": "0.2834",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "North Dakota - Catholic - 0.2488",
+               "@value": "0.2488",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "North Dakota - Methodist - 0.0278",
+               "@value": "0.0278",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "North Dakota - Reformed, Presb, Cong - 0.0276",
+               "@value": "0.0276",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "North Dakota - Pentecostal and Holiness - 0.0268",
+               "@value": "0.0268",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "North Dakota - Baptist - 0.0131",
+               "@value": "0.0131",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "North Dakota - Latter-day Saints (Mormonism) - 0.0107",
+               "@value": "0.0107",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "North Dakota - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "North Dakota - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "SD",
+         "data": [
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "South Dakota - Lutheran - 0.1867",
+               "@value": "0.1867",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "South Dakota - Catholic - 0.1829",
+               "@value": "0.1829",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "South Dakota - Reformed, Presb, Cong - 0.0602",
+               "@value": "0.0602",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "South Dakota - Methodist - 0.0478",
+               "@value": "0.0478",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "South Dakota - Pentecostal and Holiness - 0.0324",
+               "@value": "0.0324",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "South Dakota - Baptist - 0.0203",
+               "@value": "0.0203",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "South Dakota - Latter-day Saints (Mormonism) - 0.0123",
+               "@value": "0.0123",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "South Dakota - Episcopal and Anglican - 0.0115",
+               "@value": "0.0115",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "South Dakota - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "MS",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Mississippi - Baptist - 0.3430",
+               "@value": "0.3430",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Mississippi - Methodist - 0.0908",
+               "@value": "0.0908",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Mississippi - Catholic - 0.0379",
+               "@value": "0.0379",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Mississippi - Pentecostal and Holiness - 0.0278",
+               "@value": "0.0278",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Mississippi - Reformed, Presb, Cong - 0.0180",
+               "@value": "0.0180",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Mississippi - Christian and Restorationist - 0.0170",
+               "@value": "0.0170",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Mississippi - Latter-day Saints (Mormonism) - 0.0075",
+               "@value": "0.0075",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Mississippi - Episcopal and Anglican - 0.0065",
+               "@value": "0.0065",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Mississippi - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "AL",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Alabama - Baptist - 0.3417",
+               "@value": "0.3417",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Alabama - Methodist - 0.0849",
+               "@value": "0.0849",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Alabama - Pentecostal and Holiness - 0.0454",
+               "@value": "0.0454",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Alabama - Catholic - 0.0420",
+               "@value": "0.0420",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Alabama - Christian and Restorationist - 0.0263",
+               "@value": "0.0263",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Alabama - Reformed, Presb, Cong - 0.0189",
+               "@value": "0.0189",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Alabama - Episcopal and Anglican - 0.0091",
+               "@value": "0.0091",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Alabama - Latter-day Saints (Mormonism) - 0.0077",
+               "@value": "0.0077",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Alabama - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "AR",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Arkansas - Baptist - 0.2788",
+               "@value": "0.2788",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Arkansas - Methodist - 0.0692",
+               "@value": "0.0692",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Arkansas - Pentecostal and Holiness - 0.0464",
+               "@value": "0.0464",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Arkansas - Catholic - 0.0421",
+               "@value": "0.0421",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Arkansas - Christian and Restorationist - 0.0348",
+               "@value": "0.0348",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Arkansas - Reformed, Presb, Cong - 0.0159",
+               "@value": "0.0159",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Arkansas - Latter-day Saints (Mormonism) - 0.0102",
+               "@value": "0.0102",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Arkansas - Lutheran - 0.0058",
+               "@value": "0.0058",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Arkansas - Episcopal and Anglican - 0.0046",
+               "@value": "0.0046",
+               "@coloRank": "7"
+            }
+         ]
+      },
+      {
+         "@key": "TN",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Tennessee - Baptist - 0.2641",
+               "@value": "0.2641",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Tennessee - Methodist - 0.0684",
+               "@value": "0.0684",
+               "@coloRank": "12"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Tennessee - Christian and Restorationist - 0.0459",
+               "@value": "0.0459",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Tennessee - Pentecostal and Holiness - 0.0388",
+               "@value": "0.0388",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Tennessee - Catholic - 0.0351",
+               "@value": "0.0351",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Tennessee - Reformed, Presb, Cong - 0.0344",
+               "@value": "0.0344",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Tennessee - Latter-day Saints (Mormonism) - 0.0075",
+               "@value": "0.0075",
+               "@coloRank": "12"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Tennessee - Episcopal and Anglican - 0.0063",
+               "@value": "0.0063",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Tennessee - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "OK",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Oklahoma - Baptist - 0.2562",
+               "@value": "0.2562",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Oklahoma - Methodist - 0.0804",
+               "@value": "0.0804",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Oklahoma - Pentecostal and Holiness - 0.0497",
+               "@value": "0.0497",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Oklahoma - Catholic - 0.0476",
+               "@value": "0.0476",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Oklahoma - Christian and Restorationist - 0.0419",
+               "@value": "0.0419",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Oklahoma - Reformed, Presb, Cong - 0.0168",
+               "@value": "0.0168",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Oklahoma - Latter-day Saints (Mormonism) - 0.0124",
+               "@value": "0.0124",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Oklahoma - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Oklahoma - Lutheran - 0.0076",
+               "@value": "0.0076",
+               "@coloRank": "3"
+            }
+         ]
+      },
+      {
+         "@key": "KY",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Kentucky - Baptist - 0.2479",
+               "@value": "0.2479",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Kentucky - Catholic - 0.0829",
+               "@value": "0.0829",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Kentucky - Christian and Restorationist - 0.0576",
+               "@value": "0.0576",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Kentucky - Methodist - 0.0482",
+               "@value": "0.0482",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Kentucky - Pentecostal and Holiness - 0.0277",
+               "@value": "0.0277",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Kentucky - Reformed, Presb, Cong - 0.0171",
+               "@value": "0.0171",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Kentucky - Latter-day Saints (Mormonism) - 0.0075",
+               "@value": "0.0075",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Kentucky - Episcopal and Anglican - 0.0040",
+               "@value": "0.0040",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Kentucky - Lutheran - 0.0029",
+               "@value": "0.0029",
+               "@coloRank": "7"
+            }
+         ]
+      },
+      {
+         "@key": "SC",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "South Carolina - Baptist - 0.2205",
+               "@value": "0.2205",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "South Carolina - Methodist - 0.0924",
+               "@value": "0.0924",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "South Carolina - Reformed, Presb, Cong - 0.0478",
+               "@value": "0.0478",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "South Carolina - Pentecostal and Holiness - 0.0398",
+               "@value": "0.0398",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "South Carolina - Catholic - 0.0393",
+               "@value": "0.0393",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "South Carolina - Lutheran - 0.0125",
+               "@value": "0.0125",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "South Carolina - Episcopal and Anglican - 0.0118",
+               "@value": "0.0118",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "South Carolina - Latter-day Saints (Mormonism) - 0.0082",
+               "@value": "0.0082",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "South Carolina - Christian and Restorationist - 0.0056",
+               "@value": "0.0056",
+               "@coloRank": "4"
+            }
+         ]
+      },
+      {
+         "@key": "GA",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Georgia - Baptist - 0.2052",
+               "@value": "0.2052",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Georgia - Methodist - 0.0812",
+               "@value": "0.0812",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Georgia - Catholic - 0.0616",
+               "@value": "0.0616",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Georgia - Pentecostal and Holiness - 0.0344",
+               "@value": "0.0344",
+               "@coloRank": "6"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Georgia - Reformed, Presb, Cong - 0.0240",
+               "@value": "0.0240",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Georgia - Christian and Restorationist - 0.0125",
+               "@value": "0.0125",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Georgia - Latter-day Saints (Mormonism) - 0.0081",
+               "@value": "0.0081",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Georgia - Episcopal and Anglican - 0.0071",
+               "@value": "0.0071",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "Georgia - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "NC",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "North Carolina - Baptist - 0.1778",
+               "@value": "0.1778",
+               "@coloRank": "10"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "North Carolina - Methodist - 0.0860",
+               "@value": "0.0860",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "North Carolina - Reformed, Presb, Cong - 0.0471",
+               "@value": "0.0471",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "North Carolina - Catholic - 0.0412",
+               "@value": "0.0412",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "North Carolina - Pentecostal and Holiness - 0.0316",
+               "@value": "0.0316",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "North Carolina - Lutheran - 0.0097",
+               "@value": "0.0097",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "North Carolina - Episcopal and Anglican - 0.0087",
+               "@value": "0.0087",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "North Carolina - Christian and Restorationist - 0.0087",
+               "@value": "0.0087",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "North Carolina - Latter-day Saints (Mormonism) - 0.0081",
+               "@value": "0.0081",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "DC",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "District Of Columbia - Baptist - 0.1696",
+               "@value": "0.1696",
+               "@coloRank": "11"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "District Of Columbia - Catholic - 0.1262",
+               "@value": "0.1262",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "District Of Columbia - Methodist - 0.0367",
+               "@value": "0.0367",
+               "@coloRank": "9"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "District Of Columbia - Episcopal and Anglican - 0.0308",
+               "@value": "0.0308",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "District Of Columbia - Reformed, Presb, Cong - 0.0281",
+               "@value": "0.0281",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "District Of Columbia - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "District Of Columbia - Pentecostal and Holiness - 0.0134",
+               "@value": "0.0134",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "District Of Columbia - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "0",
+               "@boundaryColor": "0",
+               "@toolTip": "District Of Columbia - No Data",
+               "@value": "",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "MO",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Missouri - Baptist - 0.1405",
+               "@value": "0.1405",
+               "@coloRank": "12"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Missouri - Catholic - 0.1209",
+               "@value": "0.1209",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Missouri - Methodist - 0.0434",
+               "@value": "0.0434",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Missouri - Pentecostal and Holiness - 0.0336",
+               "@value": "0.0336",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Missouri - Christian and Restorationist - 0.0330",
+               "@value": "0.0330",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Missouri - Lutheran - 0.0278",
+               "@value": "0.0278",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Missouri - Reformed, Presb, Cong - 0.0264",
+               "@value": "0.0264",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Missouri - Latter-day Saints (Mormonism) - 0.0154",
+               "@value": "0.0154",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Missouri - Episcopal and Anglican - 0.0039",
+               "@value": "0.0039",
+               "@coloRank": "11"
+            }
+         ]
+      },
+      {
+         "@key": "VA",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "Virginia - Baptist - 0.1127",
+               "@value": "0.1127",
+               "@coloRank": "13"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "Virginia - Catholic - 0.0843",
+               "@value": "0.0843",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "Virginia - Methodist - 0.0626",
+               "@value": "0.0626",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "Virginia - Reformed, Presb, Cong - 0.0350",
+               "@value": "0.0350",
+               "@coloRank": "4"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "Virginia - Pentecostal and Holiness - 0.0262",
+               "@value": "0.0262",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "Virginia - Episcopal and Anglican - 0.0151",
+               "@value": "0.0151",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "Virginia - Christian and Restorationist - 0.0117",
+               "@value": "0.0117",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "Virginia - Latter-day Saints (Mormonism) - 0.0113",
+               "@value": "0.0113",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "Virginia - Lutheran - 0.0095",
+               "@value": "0.0095",
+               "@coloRank": "2"
+            }
+         ]
+      },
+      {
+         "@key": "WV",
+         "data": [
+            {
+               "@fillColor": "16724016",
+               "@boundaryColor": "0",
+               "@toolTip": "West Virginia - Baptist - 0.0804",
+               "@value": "0.0804",
+               "@coloRank": "14"
+            },
+            {
+               "@fillColor": "16776192",
+               "@boundaryColor": "0",
+               "@toolTip": "West Virginia - Methodist - 0.0769",
+               "@value": "0.0769",
+               "@coloRank": "8"
+            },
+            {
+               "@fillColor": "43214",
+               "@boundaryColor": "0",
+               "@toolTip": "West Virginia - Catholic - 0.0517",
+               "@value": "0.0517",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "7556096",
+               "@boundaryColor": "0",
+               "@toolTip": "West Virginia - Pentecostal and Holiness - 0.0412",
+               "@value": "0.0412",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "12910847",
+               "@boundaryColor": "0",
+               "@toolTip": "West Virginia - Reformed, Presb, Cong - 0.0229",
+               "@value": "0.0229",
+               "@coloRank": "5"
+            },
+            {
+               "@fillColor": "511744",
+               "@boundaryColor": "0",
+               "@toolTip": "West Virginia - Christian and Restorationist - 0.0222",
+               "@value": "0.0222",
+               "@coloRank": "2"
+            },
+            {
+               "@fillColor": "13936258",
+               "@boundaryColor": "0",
+               "@toolTip": "West Virginia - Latter-day Saints (Mormonism) - 0.0095",
+               "@value": "0.0095",
+               "@coloRank": "7"
+            },
+            {
+               "@fillColor": "16750080",
+               "@boundaryColor": "0",
+               "@toolTip": "West Virginia - Lutheran - 0.0071",
+               "@value": "0.0071",
+               "@coloRank": "3"
+            },
+            {
+               "@fillColor": "15253247",
+               "@boundaryColor": "0",
+               "@toolTip": "West Virginia - Episcopal and Anglican - 0.0046",
+               "@value": "0.0046",
+               "@coloRank": "8"
+            }
+         ]
+      }
+   ]
+}
