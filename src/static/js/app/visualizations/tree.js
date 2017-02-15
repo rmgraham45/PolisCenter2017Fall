@@ -173,7 +173,7 @@ function visualizeTree(url) {
 }
 
 // init Tree Map with placeholder url 
-url = 'http://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?';
+url = 'https://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?';
 let geog,
   rcvi,
   DominantReligion,
