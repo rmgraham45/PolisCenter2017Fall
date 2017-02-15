@@ -8,7 +8,7 @@ function visualizeTree(url) {
       top: 0,
       right: 0,
       bottom: 0,
-      left: 0
+      left: 0,
     },
     pad = 20,
     nest = d3.nest()
@@ -40,12 +40,12 @@ function visualizeTree(url) {
       .paddingInner(0)
       .round(true)
       .size([width, height]);
-    d3.xml('data/religiontree_tree.xml', function (data) {
+    d3.xml(url, function (data) {
       data = [].map.call(data.querySelectorAll('data'), function (religion) {
         return {
           name: religion.getAttribute('label'),
           data1: +religion.getAttribute('data1'),
-          data2: +religion.getAttribute('data2')
+          data2: +religion.getAttribute('data2'),
         };
       });
       var max = d3.max(data, function (d) {
@@ -54,7 +54,7 @@ function visualizeTree(url) {
       var legendData = getLegendData(max, 5);
       node = root = data;
       var root = d3.hierarchy({
-          values: nest.entries(data)
+          values: nest.entries(data),
         }, function (d) {
           return d.values;
         })
@@ -172,4 +172,36 @@ function visualizeTree(url) {
   }
 }
 
-visualizeTree('placeholder');
+// init Tree Map with placeholder url 
+url = 'http://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?';
+let geog,
+  rcvi,
+  DominantReligion,
+  dy,
+  glid,
+  dy2,
+  rcvi2,
+  NumberofClusters,
+  ColorScheme,
+  DenomFamily,
+  DenomFamily2,
+  // FromPie,
+  parameters;
+
+parameters = {
+  geog: 'COUNTRY',
+  rcvi: '4',
+  DominantReligion: '2',
+  dy: '2010',
+  glid: '011',
+  dy2: '2010',
+  rcvi2: '3',
+  NumberofClusters: '5',
+  ColorScheme: 'Reds',
+  DenomFamily: '25',
+  DenomFamily2: '25',
+  // FromPie: 'true', // Not needed here
+};
+parameters = $.param(parameters);
+
+visualizeTree(url + parameters);
