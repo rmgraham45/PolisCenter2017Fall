@@ -54,3 +54,20 @@
     display: inline;
     padding-top: 0.5rem;
 }
+
+.legend-div {
+    padding: 5px;
+}
+
+.node {
+    position: absolute;
+    background: transparent url('') no-repeat 50% / cover;
+    border: 2px black solid;
+    overflow: hidden;
+    display: table;
+}
+
+.node-value {
+    display: table-cell;
+    vertical-align: middle;
+}
