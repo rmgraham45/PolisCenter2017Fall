@@ -20,8 +20,6 @@ function getCensusType() {
     type: 'GET',
     url,
     success(xml) {
-      // console.log(xml)
-
       $(xml)
         .find('ReligionCensusYear')
         .first()
@@ -36,7 +34,6 @@ function getCensusType() {
         });
     },
     error(error) {
-      // alert(error);
       console.log(error);
     },
   });
@@ -49,21 +46,16 @@ function getCensusPercentage(name) {
     type: 'GET',
     url,
     success(xml) {
-      // console.log(xml)
-
       $(xml)
         .find(`ReligionCensusYear:first ReligionCensusVariable[label='${name}'] NormalizationVariable`)
         .each(function () {
           percentageLabel = $(this).attr('label');
           percentageData = $(this).attr('data');
-          // console.log(percentageData);
-          // console.log(percentageLabel);
           $('#sel2')
             .append(`<option value='${percentageData}'>${percentageLabel}</option>`);
         });
     },
     error(error) {
-      // alert(error);
       console.log(error);
     },
   });
@@ -76,7 +68,6 @@ function getCounties(value) {
     type: 'GET',
     url,
     success(xml) {
-      // console.log(xml)
       $(xml)
         .find('Counties Item data')
         .each(function () {
@@ -91,7 +82,6 @@ function getCounties(value) {
         });
     },
     error(error) {
-      // alert(error);
       console.log(error);
     },
   });
@@ -99,6 +89,7 @@ function getCounties(value) {
 
 function submitForm() {
   $('#map-info').on('submit', (e) => {
+    // submits form via ajax get
     e.preventDefault();
     let geog,
       rcvi,
@@ -145,4 +136,18 @@ function submitForm() {
 
 function deleteSvg() {
   $('svg').remove();
+}
+
+function getDmd() {
+  $.ajax({
+    // Get list of applicable years and appends the value to dropdown menu
+    type: 'GET',
+    url: 'http://localhost:8000/data/dmd.json',
+    success(data) {
+      console.log(data)
+    },
+    error(error) {
+      console.log(error);
+    },
+  });
 }
