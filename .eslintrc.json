@@ -2,7 +2,7 @@
   "env": {
         "browser": true
   },
-  "extends": "airbnb",
+  "extends": "standard",
   "rules": {
     "func-names": ["error", "never"],
     "no-undef": "off",
