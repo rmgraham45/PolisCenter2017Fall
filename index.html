@@ -40,13 +40,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About <span class="sr-only">(current)</span></a></li>
+        <li><a href="/rac/about">About <span class="sr-only">(current)</span></a></li>
         <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore Data <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/">Pie Chart</a></li>
-            <li><a href="/tree.html">Tree Map</a></li>
-            <li><a href="/">US Map</a></li>
+            <li><a href="/rac/">Pie Chart</a></li>
+            <li><a href="/rac/tree">Tree Map</a></li>
+            <li><a href="/rac/map">US Map</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -57,10 +57,10 @@
             <li><a href="#">Religion by Region</a></li>
           </ul>
         </li>
-        <li><a href="#">FAQ's</a></li>
-        <li><a href="#">Glossary</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Help</a></li>
+        <li><a href="/rac/faq">FAQ's</a></li>
+        <li><a href="/rac/glossary">Glossary</a></li>
+        <!--<li><a href="/rac/contact-us">Contact Us</a></li>-->
+        <li><a href="/rac/help">Help</a></li>
       </ul>
       <form class="navbar-form navbar-right   ">
         <div class="form-group">
@@ -98,7 +98,10 @@
         <label for="map-geography">Change Geography</label>
         <div class="form-group" id="map-geography">
           <div class="radio">
-            <label><input type="radio" name="opt-map-geography" value="COUNTRY" checked="true">State/USA</label>
+            <label><input type="radio" name="opt-map-geography" value="COUNTRY" checked="true">Country</label>
+          </div>
+           <div class="radio">
+            <label><input type="radio" name="opt-map-geography" value="STATE">State</label>
           </div>
           <div class="radio">
             <label><input type="radio" name="opt-map-geography" value="COUNTY">County</label>
