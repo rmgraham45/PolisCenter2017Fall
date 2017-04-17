@@ -109,10 +109,10 @@ function visualizePieChart(url) {
       .attr('dy', '.35em')
       .attr('dx', '-1em')
       .text((d) => {
-        if (d.data.data1 > 3 && data_value_sum < 100) {
+        if (d.data.data1 > 3 && Math.round(data_value_sum) <= 100) {
             return `${d.data.data1  } %`;         
         }
-        else if (d.data.data1 > 100 ){
+        else if (d.data.data1 > 100 && ((d.data.data1 / data_value_sum) * 100 ) > 3)  {
             return ((d.data.data1 / data_value_sum) * 100).toFixed(2) + "%";         
         }
       });
