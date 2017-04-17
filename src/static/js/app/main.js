@@ -4,9 +4,9 @@ $(document).ready(() => {
   getCensusPercentage('Adherents'); // Default Selection
   submitForm();
 
-  $('#sel1').change(() => {
-    const name = $('#sel1 option:selected').text();
-    $('#sel2').empty();
+  $('#sel-map-type').change(() => {
+    const name = $('#sel-map-type option:selected').text();
+    $('#sel-map-percentage').empty();
     getCensusPercentage(name);
   });
 
