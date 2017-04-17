@@ -106,14 +106,18 @@ function submitForm() {
       parameters,
       data; // parameters for the query to ajax
 
-    if (!$('#sel-county option:selected').length) {
-      glid = '011'; // gets global identifier for state or county. 011 = US
-    } else {
+    if ($('input[name="opt-map-geography"]:checked').val() ==="COUNTRY") {
+      glid = '011'; // sets global identifier to be equal to country by default
+    } 
+    else if ($('input[name="opt-map-geography"]:checked').val() ==="STATE") {
+      glid = $('#sel-states').val() + "0";
+    }
+    else if ($('input[name="opt-map-geography"]:checked').val() ==="COUNTY") {
       glid = $('#sel-county').val();
     }
 
     if ($("#sel-map-type").val() === '1' && $("#sel-map-percentage").val() === '1' ) {
-      rcvi2 = '5'
+      rcvi2 = '5' // default value for chart is for adherents and as counts
     } else {
       rcvi2 = $('#sel-map-percentage').val()
     }
