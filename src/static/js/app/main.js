@@ -24,7 +24,16 @@ $(document).ready(() => {
     setCounties();
     console.log('counties set');
     if ($('input:radio[name=opt-map-geography]:checked').val() === 'COUNTRY') {
+      $('#sel-states').hide()
       $('#sel-county').empty();
+    }
+    else if ($('input:radio[name=opt-map-geography]:checked').val() === 'STATE') {
+      $('#sel-county').hide()
+      $('#sel-states').show()
+    }
+     else if ($('input:radio[name=opt-map-geography]:checked').val() === 'COUNTY') {
+      $('#sel-county').show()
+      $('#sel-states').show()
     }
   });
   $('#sel-states').change(() => {
