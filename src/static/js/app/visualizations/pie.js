@@ -55,6 +55,12 @@ function visualizePieChart(url) {
         color: region.getAttribute('color'),
       };
     });
+
+    var data_value_sum = 0;
+    $.each(data,function( key, value ) {
+    data_value_sum += value.data1;
+    });
+     
     console.log(data);
     // data converted into an array
     //* ***********************************************************
@@ -103,7 +109,12 @@ function visualizePieChart(url) {
       .attr('dy', '.35em')
       .attr('dx', '-1em')
       .text((d) => {
-        if (d.data.data1 > 3) return `${d.data.data1  } %`;
+        if (d.data.data1 > 3 && Math.round(data_value_sum) <= 100) {
+            return `${d.data.data1  } %`;         
+        }
+        else if (d.data.data1 > 100 && ((d.data.data1 / data_value_sum) * 100 ) > 3)  {
+            return ((d.data.data1 / data_value_sum) * 100).toFixed(2) + "%";         
+        }
       });
 
     function tweenPie(b) {
@@ -137,7 +148,13 @@ function visualizePieChart(url) {
       });
     legendG.append('text') // add the text
       .text((d) => {
-        return `${d.label  } (${  d.data1  }%  ) `;
+        if (d.data1 > 100 ){
+            return d.label + " " + ((d.data1 / data_value_sum) * 100).toFixed(2) + "%";         
+        }
+        else {
+            return `${d.label  } (${  d.data1  }%  ) `;
+
+        }
       })
       .style('font-size', 12)
       .attr('y', legendTextPad / 1.5)
