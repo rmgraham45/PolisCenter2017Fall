@@ -87,64 +87,6 @@ function getCounties(value) {
   });
 }
 
-function submitForm() {
-  $('#map-info').on('submit', (e) => {
-    // submits form via ajax get
-    e.preventDefault();
-    let geog,
-      rcvi,
-      DominantReligion,
-      dy,
-      glid,
-      dy2,
-      rcvi2,
-      NumberofClusters,
-      ColorScheme,
-      DenomFamily,
-      DenomFamily2,
-      FromPie,
-      parameters,
-      data; // parameters for the query to ajax
-
-    if ($('input[name="opt-map-geography"]:checked').val() ==="COUNTRY") {
-      glid = '011'; // sets global identifier to be equal to country by default
-    } 
-    else if ($('input[name="opt-map-geography"]:checked').val() ==="STATE") {
-      glid = $('#sel-states').val() + "0";
-    }
-    else if ($('input[name="opt-map-geography"]:checked').val() ==="COUNTY") {
-      glid = $('#sel-county').val();
-    }
-
-    if ($("#sel-map-type").val() === '1' && $("#sel-map-percentage").val() === '1' ) {
-      rcvi2 = '5' // default value for chart is for adherents and as counts
-    } else {
-      rcvi2 = $('#sel-map-percentage').val()
-    }
-
-    parameters = {
-      geog: $('input:radio[name=opt-map-geography]:checked').val(),
-      rcvi: $('#sel-map-percentage').val(),
-      DominantReligion: $('input:radio[name=opt-map-representation]:checked').val(),
-      dy: $('#sel-year').val(),
-      glid,
-      dy2: $('#sel-year').val(),
-      rcvi2 ,
-      NumberofClusters: '5',
-      ColorScheme: 'Reds',
-      DenomFamily: '0',
-      DenomFamily2: '0',
-      FromPie: 'true',
-    };
-    $form = $('form.map-info');
-    console.log(parameters);
-    parameters = $.param(parameters);
-    const url = 'https://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?';
-    deleteSvg();
-    visualizePieChart(url + parameters);
-  });
-}
-
 function deleteSvg() {
   $('svg').remove();
 }

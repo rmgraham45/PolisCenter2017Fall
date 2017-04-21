@@ -57,7 +57,7 @@ function ZoomableTreeMap() {
                      .style("height", function(d) { return d.y1 - d.y0 + "px"; })
 		    .style("background", function(d) { console.log(d); return "#"+d.parent.data.values[0].key.substring(2,8); })
 		     .on("mouseover", function(d){
-         	  	tooltip.attr("class", "tooltip");
+         	  	tooltip.attr("class", "graph-tooltip");
          	  	tooltip.style("left", d3.event.pageX+10+"px");
          	 	tooltip.style("top", d3.event.pageY-25+"px");
         	 	tooltip.style("display", "inline-block");
@@ -99,37 +99,3 @@ return legendData;
 }
 
 }
-
-// init Tree Map with placeholder url 
-url = 'https://in-polis-app28.ads.iu.edu/daarws/GetTreeMapData.aspx?';
-let geog,
-  rcvi,
-  DominantReligion,
-  dy,
-  glid,
-  dy2,
-  rcvi2,
-  NumberofClusters,
-  ColorScheme,
-  DenomFamily,
-  DenomFamily2,
-  // FromPie,
-  parameters;
-
-parameters = {
-  geog: 'COUNTRY',
-  rcvi: '4',
-  DominantReligion: '2',
-  dy: '2010',
-  glid: '011',
-  dy2: '2010',
-  rcvi2: '3',
-  NumberofClusters: '5',
-  ColorScheme: 'Reds',
-  DenomFamily: '25',
-  DenomFamily2: '25',
-  // FromPie: 'true', // Not needed here
-};
-parameters = $.param(parameters);
-
-visualizeTree(url + parameters);

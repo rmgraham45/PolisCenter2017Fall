@@ -1,3 +1,7 @@
+svg {
+    width: 800px;
+}
+
 #graph-holder {
     /*background: #f1f1f1;*/
     text-align: center;
@@ -27,7 +31,7 @@
     position: relative;
 }
 
-.tooltip {
+.graph-tooltip {
     position: absolute;
     display: none;
     width: auto;

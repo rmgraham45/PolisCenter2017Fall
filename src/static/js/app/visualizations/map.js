@@ -2,6 +2,8 @@
 // initialize Global Variables and call methods to plot visual
 //************************************************************
 
+function visualizeMap(dmd_data, us_data) {
+
 var tooltip = d3.select("body").append("div"); // declare the tooltip div
 var color = d3.scaleOrdinal(d3.schemeCategory10),
 	margin = {
@@ -83,11 +85,13 @@ var state_hash = {
 	"Wisconsin": "WI",
 	"Wyoming": "WY"
 };
+d3.xml("data/dmd.xml", function(error, data){
+	console.log(data)
+})
 
-
-d3.json("data/dmd.json", function (error, data) {
+d3.json(dmd_data, function (error, data) {
 	var stateData = mapStateData(data);
-	d3.json("data/us.json", function (error, json) {
+	d3.json(us_data, function (error, json) {
 
 		svg.selectAll("path")
 			.data(json.features)
@@ -110,7 +114,7 @@ d3.json("data/dmd.json", function (error, data) {
 				drawDonut(stateData[state_hash[d.properties.name]]);
 			})
 			.on("mouseover", function (d) {
-				tooltip.attr("class", "tooltip");
+				tooltip.attr("class", "graph-tooltip");
 				tooltip.style("left", d3.event.pageX + 10 + "px");
 				tooltip.style("top", d3.event.pageY - 25 + "px");
 				tooltip.style("display", "inline-block");
@@ -171,7 +175,7 @@ function drawDonut(data) {
 	donut.append("path")
 		.attr('d', arc)
 		.on("mouseover", function (d) {
-			tooltip2.attr("class", "tooltip");
+			tooltip2.attr("class", "graph-tooltip");
 			tooltip2.style("left", d3.event.pageX + 10 + "px");
 			tooltip2.style("top", d3.event.pageY - 25 + "px");
 			tooltip2.style("display", "inline-block");
@@ -203,8 +207,13 @@ function drawDonut(data) {
 		.attr("dy", ".35em")
 		.attr("dx", "-1em")
 		.text(function (d) {
-			if (d.data.value > 3) return d.data.value + " %";
-		});
+        if (d.data.data1 > 3 && Math.round(data_value_sum) <= 100) {
+            return `${d.data.data1  } %`;         
+        }
+        else if (d.data.data1 > 100 && ((d.data.data1 / data_value_sum) * 100 ) > 3)  {
+            return ((d.data.data1 / data_value_sum) * 100).toFixed(2) + "%";         
+        }
+      });
 
 	function tweenPie(b) {
 		var i = d3.interpolate({
@@ -245,4 +254,5 @@ function drawDonut(data) {
 
 
 
+}
 }

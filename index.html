@@ -1,195 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>Pie Chart</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
-  <!--<link rel="stylesheet" type="text/css" href="src/static/vendor/semantic/dist/semantic.min.css">-->
-  <link href=" src/static/css/style.css " rel="stylesheet " type="text/css ">
-  <link href="https://fonts.googleapis.com/css?family=Roboto " rel="stylesheet ">
-  <link rel="apple-touch-icon" sizes="180x180" href="src/static/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="src/static/icons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="src/static/icons/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="src/static/icons/manifest.json">
-  <link rel="mask-icon" href="src/static/icons/safari-pinned-tab.svg" color="#525e61">
-  <link rel="shortcut icon" href="src/static/icons/favicon.ico">
-  <meta name="msapplication-config" content="src/static/icons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-</head>
-
-<body>
-</body>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-        aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-      <a class="navbar-brand" href="#">Digital Atlas of American Religion</a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="/rac/about">About <span class="sr-only">(current)</span></a></li>
-        <li class="dropdown active">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore Data <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/rac/">Pie Chart</a></li>
-            <li><a href="/rac/tree">Tree Map</a></li>
-            <li><a href="/rac/map">US Map</a></li>
+  <head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+      <!--<link rel="stylesheet" type="text/css" href="src/static/vendor/semantic/dist/semantic.min.css">-->
+      <link href=" src/static/css/style.css " rel="stylesheet " type="text/css ">
+      <link href="https://fonts.googleapis.com/css?family=Roboto " rel="stylesheet ">
+      <link rel="apple-touch-icon" sizes="180x180" href="src/static/icons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" href="src/static/icons/favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="src/static/icons/favicon-16x16.png" sizes="16x16">
+      <link rel="manifest" href="src/static/icons/manifest.json">
+      <link rel="mask-icon" href="src/static/icons/safari-pinned-tab.svg" color="#525e61">
+      <link rel="shortcut icon" href="src/static/icons/favicon.ico">
+      <meta name="msapplication-config" content="src/static/icons/browserconfig.xml">
+      <meta name="theme-color" content="#ffffff">
+    </head>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/rac">Digital Atlas of American Religion</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="/rac/about">About <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore Data <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/rac/pie">Pie Chart</a></li>
+                <li><a href="/rac/tree">Tree Map</a></li>
+                <li><a href="/rac/map">US Map</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/rac/north_american_religion_atlas">North American Religion Atlas (NARA)</a></li>
+                <li><a href="/rac/community_curriculum_guide">Religion and American Community Curriculum Guide</a></li>
+                <li><a href="/rac/religion_by_region">Religion by Region</a></li>
+              </ul>
+            </li>
+            <li><a href="/rac/faq">FAQ's</a></li>
+            <li><a href="/rac/glossary">Glossary</a></li>
+            <!--<li><a href="/rac/contact-us">Contact Us</a></li>-->
+            <li><a href="/rac/help">Help</a></li>
           </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">North American Religion Atlas (NARA)</a></li>
-            <li><a href="#">Religion and American Community Curriculum Guide</a></li>
-            <li><a href="#">Religion by Region</a></li>
-          </ul>
-        </li>
-        <li><a href="/rac/faq">FAQ's</a></li>
-        <li><a href="/rac/glossary">Glossary</a></li>
-        <!--<li><a href="/rac/contact-us">Contact Us</a></li>-->
-        <li><a href="/rac/help">Help</a></li>
-      </ul>
-      <form class="navbar-form navbar-right   ">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!--<nav class="navbar navbar-default">
-</nav>-->
-<div class="container">
-  <div class="row">
-    <div class="col col-md-3">
-      <form id="map-info">
-        <label for="map-type">Pie Wedges Represent What?</label>
-        <div class="form-group" id="map-type">
-          <div class="radio">
-            <label><input type="radio" name="opt-map-representation" value="2" checked="true">Predominant Religion Families</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="opt-map-representation" value='3' >Religion Characteristics</label>
-          </div>
-        </div>
-        <label for="map-details">Religion Census</label>
-        <div class="form-group" id="map-details">
-          <select class="form-control" id="sel-map-type" name="map-details-type">
-        </select>
-          <!--<label for="sel-map-percentage">Select Map Details</label>-->
-          <select class="form-control" id="sel-map-percentage" name="map-details-percentage">
-        </select>
-        </div>
-        <label for="map-geography">Change Geography</label>
-        <div class="form-group" id="map-geography">
-          <div class="radio">
-            <label><input type="radio" name="opt-map-geography" value="COUNTRY" checked="true">Country</label>
-          </div>
-           <div class="radio">
-            <label><input type="radio" name="opt-map-geography" value="STATE">State</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="opt-map-geography" value="COUNTY">County</label>
-          </div>
-          <select class="form-control" id="sel-states" style="display: none;">
-            <option value="01">Alabama</option>
-            <option value="02">Alaska</option>
-            <option value="04">Arizona</option>
-            <option value="05">Arkansas</option>
-            <option value="06">California</option>
-            <option value="08">Colorado</option>
-            <option value="09">Connecticut</option>
-            <option value="10">Delaware</option>
-            <option value="11">District Of Columbia</option>
-            <option value="12">Florida</option>
-            <option value="13">Georgia</option>
-            <option value="15">Hawaii</option>
-            <option value="16">Idaho</option>
-            <option value="17">Illinois</option>
-            <option value="18">Indiana</option>
-            <option value="19">Iowa</option>
-            <option value="20">Kansas</option>
-            <option value="21">Kentucky</option>
-            <option value="22">Louisiana</option>
-            <option value="23">Maine</option>
-            <option value="24">Maryland</option>
-            <option value="25">Massachusetts</option>
-            <option value="26">Michigan</option>
-            <option value="27">Minnesota</option>
-            <option value="28">Mississippi</option>
-            <option value="29">Missouri</option>
-            <option value="30">Montana</option>
-            <option value="31">Nebraska</option>
-            <option value="32">Nevada</option>
-            <option value="33">New Hampshire</option>
-            <option value="34">New Jersey</option>
-            <option value="35">New Mexico</option>
-            <option value="36">New York</option>
-            <option value="37">North Carolina</option>
-            <option value="38">North Dakota</option>
-            <option value="39">Ohio</option>
-            <option value="40">Oklahoma</option>
-            <option value="41">Oregon</option>
-            <option value="42">Pennsylvania</option>
-            <option value="44">Rhode Island</option>
-            <option value="45">South Carolina</option>
-            <option value="46">South Dakota</option>
-            <option value="47">Tennessee</option>
-            <option value="48">Texas</option>
-            <option value="49">Utah</option>
-            <option value="50">Vermont</option>
-            <option value="51">Virginia</option>
-            <option value="53">Washington</option>
-            <option value="54">West Virginia</option>
-            <option value="55">Wisconsin</option>
-            <option value="56">Wyoming</option>
-        </select>
-          <label for="map-years">Select a year</label>
-          <select class="form-control" id="sel-year" name="map-years">
-        </select>
-          </select>
-          <label for="map-county">Select a county</label>
-          <select class="form-control" id="sel-county" name="map-county" style="display: none;">
-        </select>
-        </div>
-        <input type="submit" class="btn btn-default" id="refresh-data" value="Refresh">
-      </form>
-    </div>
-    <div class="col col-md-9" id="graph-holder">
-      <div class="graph-div">
-        <div class="graph-title ">Pie Chart</div>
-        <div id="visualization" class="visualization "> </div>
+          <form class="navbar-form navbar-right   ">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </ul>
       </div>
     </div>
-  </div>
-</div>
-</div>
-<!-- Vendor script -->
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  </nav>
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <h1 class="title"></h1>
+        <p></p>
+        <div class="col-md-6">
+          <img class="alignnone size-full wp-image-162" title="Image 2" src="https://in-polis-app28.ads.iu.edu/AmericanReligionAtlas/wp-content/uploads/2012/02/Image-2.jpg"
+          alt="" width="396" height="323">
+          <h2>Your tool for visualizing complex data:</h2>
+          <p>The Digital Atlas of American Religion provides access to resources for the study and teaching of American religious
+          history within a geographical and multimedia framework.</p>
+          <p>
+            <a href="https://polis.iupui.edu" target="_blank"><img class="alignnone" title="Polis logo" src="https://in-polis-app28.ads.iu.edu/AmericanReligionAtlas/wp-content/uploads/2013/02/Polis-logo.jpg"
+            alt="" width="150" height="86"></a>
+            <a href="https://www.neh.gov" target="_blank"><img class="alignnone" title="NEH Logo 80" src="https://in-polis-app28.ads.iu.edu/AmericanReligionAtlas/wp-content/uploads/2012/02/NEH-Logo-80.png"
+            alt="" width="150" height="83"></a>.</p>
+          </div>
+          <div class="col-md-6">
+            <h2></h2>
+            <h2>Tour this site:</h2>
+            <p>Explore complex data, at varying scales and with multi dimensions, within a humanities-focused geographic information
+              system. This site provides tools and methods for categorizing data and visualizing it in a variety of different ways,
+            from traditional mapping to tree maps, cartograms, and other advanced methods.</p>
+            <p>Explore the <a title="Help" href="https://in-polis-app28.ads.iu.edu/AmericanReligionAtlas/?page_id=34">Help </a>section
+            for tutorials to guide you in using these tools, but first, watch this video to see examples of how you can use the
+            Digital Atlas of American Religion as your tool for visualizing complex data.
+          </p>
+          <iframe src="https://www.youtube.com/embed/pEI2Vt29ru0" frameborder="0" width="420" height="315"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div id="footer-content" class="clearfix">
+          © 2013 <a href="https://polis.iupui.edu">The Polis Center at IUPUI</a> | <a href="mailto:daar@iupui.edu">daar@iupui.edu</a>      | phone: 317.274.2455 | <a href="https://in-polis-app28.ads.iu.edu/AmericanReligionAtlas/?page_id=19">contact</a> |
+          <a href="https://in-polis-app28.ads.iu.edu/AmericanReligionAtlas/?page_id=302">terms of use</a> | <a href="https://in-polis-app28.ads.iu.edu/AmericanReligionAtlas/?page_id=264">privacy policy</a>      | <a href="https://in-polis-app28.ads.iu.edu/AmericanReligionAtlas/?page_id=256">site map</a> | version 1.0.0.0 | known
+          issues
+          <center>The Polis Center is a part of the <a href="https://liberalarts.iupui.edu" target="blank">Indiana University School of Liberal Arts at Indiana University-Purdue University Indianapolis.</a>
+          <p>
+            <a href="https://www.indiana.edu" target="_blank"></a> <a href="https://www.indiana.edu/comments/copyright.shtml" target="_blank">Copyright</a> 2012 The Trustees
+            of <a href="https://www.indiana.edu" target="_blank">Indiana University</a> | <a href="https://www.indiana.edu/comments/complaint.shtml"
+          target="_blank">Copyright Complaints</a></p>
+          </center>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Vendor script -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
   crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
-<!-- App script -->
-<script src="src/static/js/app/visualizations/pie.js "></script>
-<script src="src/static/js/app/main.js"></script>
-<script src="src/static/js/app/utils.js"></script>
-<script src="src/static/js/vendor/analytics/ga.js"></script>
-
+  <script src="src/static/js/vendor/analytics/ga.js"></script>
 </html>

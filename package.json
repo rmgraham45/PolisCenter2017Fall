@@ -6,12 +6,11 @@
   "scripts": {
     "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd src/static/vendor/semantic/ && gulp build && gulp watch",
     "lint": "eslint --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mketiku/religon-atlas-chart.git"
+    "url": "git+https://github.com/Polis-Center/rac.git"
   },
   "keywords": [
     "relgion",
@@ -21,12 +20,10 @@
   "author": "Michael Ketiku",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mketiku/religon-atlas-chart/issues"
+    "url": "https://github.com/Polis-Center/rac/issues"
   },
-  "homepage": "https://github.com/mketiku/religon-atlas-chart#readme",
-  "dependencies": {
-    "semantic-ui": "^2.2.7"
-  },
+  "homepage": "https://github.com/Polis-Center/rac#readme",
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^3.16.1",
     "eslint-config-standard": "^6.2.1",

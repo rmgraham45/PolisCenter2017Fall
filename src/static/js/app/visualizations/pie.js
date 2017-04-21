@@ -75,7 +75,7 @@ function visualizePieChart(url) {
     console.log(donut);
     donut.append('path')
       .on('mouseover', (d) => {
-        tooltip.attr('class', 'tooltip');
+        tooltip.attr('class', 'graph-tooltip');
         tooltip.style('left', `${d3.event.pageX + 10  }px`);
         tooltip.style('top', `${d3.event.pageY - 25  }px`);
         tooltip.style('display', 'inline-block');
@@ -95,7 +95,7 @@ function visualizePieChart(url) {
 
     //* ***********************************************************
     // Add Text on arc of circle and
-    // at bottom show total no of books count
+    // at bottom show total
     //* ***********************************************************
     donut.append('text')
       .attr('transform', (d) => {

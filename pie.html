@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>US Map</title>
+    <title>Pie Chart</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,71 +20,65 @@
       <meta name="msapplication-config" content="src/static/icons/browserconfig.xml">
       <meta name="theme-color" content="#ffffff">
     </head>
-    <body>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-            aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/rac">Digital Atlas of American Religion</a>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="/rac/about">About <span class="sr-only">(current)</span></a></li>
-              <li class="dropdown active">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore Data <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="/rac/pie">Pie Chart</a></li>
-                  <li><a href="/rac/tree">Tree Map</a></li>
-                  <li><a href="/rac/map">US Map</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
-                <ul class="dropdown-menu">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/rac">Digital Atlas of American Religion</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="/rac/about">About <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore Data <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/rac/pie">Pie Chart</a></li>
+                <li><a href="/rac/tree">Tree Map</a></li>
+                <li><a href="/rac/map">US Map</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+              <ul class="dropdown-menu">
                 <li><a href="/rac/north_american_religion_atlas">North American Religion Atlas (NARA)</a></li>
                 <li><a href="/rac/community_curriculum_guide">Religion and American Community Curriculum Guide</a></li>
                 <li><a href="/rac/religion_by_region">Religion by Region</a></li>
-                </ul>
-              </li>
-              <li><a href="/rac/faq">FAQ's</a></li>
-              <li><a href="/rac/glossary">Glossary</a></li>
-              <!--<li><a href="/rac/contact-us">Contact Us</a></li>-->
-              <li><a href="/rac/help">Help</a></li>
-            </ul>
-            <form class="navbar-form navbar-right   ">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-          </div>
+              </ul>
+            </li>
+            <li><a href="/rac/faq">FAQ's</a></li>
+            <li><a href="/rac/glossary">Glossary</a></li>
+            <!--<li><a href="/rac/contact-us">Contact Us</a></li>-->
+            <li><a href="/rac/help">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right   ">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <body>
       <div class="container">
         <div class="row">
           <div class="col col-md-3">
             <form id="map-info">
-              <label for="map-type">Select a Map Type</label>
+              <label for="map-type">Pie Wedges Represent What?</label>
               <div class="form-group" id="map-type">
                 <div class="radio">
                   <label><input type="radio" name="opt-map-representation" value="2" checked="true">Predominant Religion Families</label>
                 </div>
                 <div class="radio">
                   <label><input type="radio" name="opt-map-representation" value='3' >Religion Characteristics</label>
-                </div>
-                <div class="radio">
-                  <label><input type="radio" name="opt-map-representation" value='3' >Religion Censuses</label>
-                </div>
-                <div class="radio">
-                  <label><input type="radio" name="opt-map-representation" value='3' >US Censuses</label>
                 </div>
               </div>
               <label for="map-details">Religion Census</label>
@@ -171,31 +165,26 @@
           </form>
         </div>
         <div class="col col-md-9" id="graph-holder">
-          <div class="graph-div ">
-            <div id="visualization" class="visualization"> </div>
-            <div id="legend-div" class="legend-div"></div>
-            <div id="donut" class="donut"> </div>
+          <div class="graph-div">
+            <div class="graph-title ">Pie Chart</div>
+            <div id="visualization" class="visualization "> </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
-  <!-- Loading all script file -->
-  <!-- Vendor script -->
-  <script src="src/static/js/vendor/jquery/jquery-3.1.1.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
-  <!-- App script -->
-  <script src="https://d3js.org/d3-array.v1.min.js"></script>
-  <script src="https://d3js.org/d3-geo.v1.min.js"></script>
-  <script src="https://d3js.org/d3-selection.v1.min.js"></script>
-  <script src="https://d3js.org/d3-collection.v1.min.js"></script>
-  <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
-  <script src="https://d3js.org/d3-request.v1.min.js"></script>
-  <script src="https://d3js.org/topojson.v1.min.js"></script>
-  <script src="src/static/js/app/visualizations/map.js"></script>
-  <script src="src/static/js/app/main.js"></script>
-  <script src="src/static/js/app/utils.js"></script>
+  </div>
+</body>
+
+<!-- Vendor script -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+<!-- App script -->
+<script src="src/static/js/app/visualizations/pie.js "></script>
+<script src="src/static/js/app/main.js"></script>
+<script src="src/static/js/app/utils.js"></script>
+<script src="src/static/js/vendor/analytics/ga.js"></script>
 </html>
