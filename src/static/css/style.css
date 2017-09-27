@@ -1,5 +1,6 @@
 svg {
-    width: 800px;
+    width: 100em;
+    height: 100em;
 }
 
 #graph-holder {
