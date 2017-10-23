@@ -98,12 +98,12 @@ d3.json(dmd_data, function (error, data) {
 			.enter()
 			.append("path")
 			.attr("d", path)
-			.style("fill", function (d, i) {
+			.style("fill", function(d, i) {
 
 				var pathData = stateData[state_hash[d.properties.name]];
 				if (pathData) {
 					pathData.sort(function (x, y) {
-						return d3.ascending(y["@value"], x["@value"]);
+						return d3.descending(x["@value"], y["@value"]);
 					});
 					return color(pathData[0]["@coloRank"]);
 				}
