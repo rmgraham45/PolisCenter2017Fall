@@ -103,7 +103,7 @@ d3.json(dmd_data, function (error, data) {
 				var pathData = stateData[state_hash[d.properties.name]];
 				if (pathData) {
 					pathData.sort(function (x, y) {
-						return d3.descending(x["@value"], y["@value"]);
+						return d3.ascending(x["@value"], y["@value"]);
 					});
 					return color(pathData[0]["@coloRank"]);
 				}
