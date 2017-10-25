@@ -1,6 +1,6 @@
 svg {
-    width: 900px;
-    height: 500px;
+    width: 130%;
+    height: 100%;
 }
 
 #graph-holder {
@@ -67,10 +67,11 @@ svg {
 
 .node {
     position: absolute;
-    background: transparent url('') no-repeat 50% / cover;
+    background: transparent url('') no-repeat 50%;
     border: 2px black solid;
     overflow: hidden;
     display: table;
+    background-size: cover;
 }
 
 .node-value {
@@ -87,9 +88,9 @@ svg {
     stroke: #fff;
 }
 
-.states :hover {
-    fill: red;
-}
+    .states :hover {
+        fill: red;
+    }
 
 .state-borders {
     fill: none;
