@@ -1,4 +1,22 @@
 <!DOCTYPE html>
+<!-- Loading all script file -->
+<!-- Vendor script -->
+<script src="src/static/js/vendor/jquery/jquery-3.1.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+<!-- App script -->
+<script src="https://d3js.org/d3-array.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+<script src="https://d3js.org/d3-selection.v1.min.js"></script>
+<script src="https://d3js.org/d3-collection.v1.min.js"></script>
+<script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+<script src="https://d3js.org/d3-request.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="src/static/js/app/visualizations/map.js"></script>
+<script src="src/static/js/app/main.js"></script>
+<script src="src/static/js/app/utils.js"></script>
 <html>
   <head>
     <title>US Map</title>
@@ -8,7 +26,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous">
-      <!--<link rel="stylesheet" type="text/css" href="src/static/vendor/semantic/dist/semantic.min.css">-->
+      <!-link rel="stylesheet" type="text/css" href="src/static/vendor/semantic/dist/semantic.min.css">-->
       <link href=" src/static/css/style.css " rel="stylesheet " type="text/css ">
       <link href="https://fonts.googleapis.com/css?family=Roboto " rel="stylesheet ">
       <link rel="apple-touch-icon" sizes="180x180" href="src/static/icons/apple-touch-icon.png">
@@ -75,7 +93,7 @@
               <label for="map-type">Select a Map Type</label>
               <div class="form-group" id="map-type">
                 <div class="radio">
-                  <label><input type="radio" name="opt-map-representation" value="2" checked="true">Predominant Religion Families</label>
+                  <label><input type="radio" name="opt-map-representation" value="2" checked= "checked" >Predominant Religion Families</label>
                 </div>
                 <div class="radio">
                   <label><input type="radio" name="opt-map-representation" value='3' >Religion Characteristics</label>
@@ -98,7 +116,7 @@
               <label for="map-geography">Change Geography</label>
               <div class="form-group" id="map-geography">
                 <div class="radio">
-                  <label><input type="radio" name="opt-map-geography" value="COUNTRY" checked="true">Country</label>
+                  <label><input type="radio" name="opt-map-geography" value="COUNTRY" checked="checked" >Country</label>
                 </div>
                 <div class="radio">
                   <label><input type="radio" name="opt-map-geography" value="STATE">State</label>
@@ -162,7 +180,6 @@
                 <label for="map-years">Select a year</label>
                 <select class="form-control" id="sel-year" name="map-years">
                 </select>
-              </select>
               <label for="map-county">Select a county</label>
               <select class="form-control" id="sel-county" name="map-county" style="display: none;">
               </select>
@@ -180,22 +197,4 @@
       </div>
     </div>
   </body>
-  <!-- Loading all script file -->
-  <!-- Vendor script -->
-  <script src="src/static/js/vendor/jquery/jquery-3.1.1.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
-  <!-- App script -->
-  <script src="https://d3js.org/d3-array.v1.min.js"></script>
-  <script src="https://d3js.org/d3-geo.v1.min.js"></script>
-  <script src="https://d3js.org/d3-selection.v1.min.js"></script>
-  <script src="https://d3js.org/d3-collection.v1.min.js"></script>
-  <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
-  <script src="https://d3js.org/d3-request.v1.min.js"></script>
-  <script src="https://d3js.org/topojson.v1.min.js"></script>
-  <script src="src/static/js/app/visualizations/map.js"></script>
-  <script src="src/static/js/app/main.js"></script>
-  <script src="src/static/js/app/utils.js"></script>
 </html>
